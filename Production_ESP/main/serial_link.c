@@ -20,6 +20,31 @@
 
 static bool initialized = false;
 
+bool serial_link_receive_atr(uint8_t *buffer, size_t capacity, atr_record_t *record)
+{
+    static uint8_t frame[MAX_SLIP_SIZE];
+    static size_t used = 0;
+    uint8_t byte;
+    for (unsigned budget = 0; budget < 256; budget++) {
+        if (uart_read_bytes(SERIAL_UART, &byte, 1, 0) != 1) break;
+        if (byte == 0xC0) {
+            bool valid = false;
+            if (used > 1 && used < sizeof(frame)) {
+                frame[used++] = byte;
+                size_t decoded = 0;
+                valid = slip_decode(frame, used, buffer, capacity, &decoded) &&
+                        atr_decode(buffer, decoded, record);
+            }
+            frame[0] = byte; used = 1;
+            if (valid) return true;
+        } else if (used) {
+            if (used < sizeof(frame) - 1) frame[used++] = byte;
+            else used = 0;
+        }
+    }
+    return false;
+}
+
 esp_err_t serial_link_init(void)
 {
     if (initialized) {

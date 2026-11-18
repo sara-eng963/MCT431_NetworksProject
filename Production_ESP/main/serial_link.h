@@ -5,11 +5,13 @@
 #include <stddef.h>
 #include <stdint.h>
 #include "esp_err.h"
+#include "atr.h"
 
 // Maximum payload supported by this implementation.
 #define SERIAL_LINK_MAX_PAYLOAD 128U
 
 esp_err_t serial_link_init(void);
+bool serial_link_receive_atr(uint8_t *buffer, size_t capacity, atr_record_t *record);
 
 esp_err_t serial_link_send_atr(
     uint16_t test_id,

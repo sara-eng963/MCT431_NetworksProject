@@ -1,0 +1,14 @@
+{
+  "packets": 140,
+  "commented_packets": 45,
+  "wireless_frames_classified": 140,
+  "matched_inspection_jobs": 1,
+  "examples": [
+    {
+      "job_id": 235,
+      "part_id": 199,
+      "completion_frame": 102,
+      "verdict": "PASS"
+    }
+  ]
+}

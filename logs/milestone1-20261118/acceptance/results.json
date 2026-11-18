@@ -1,0 +1,40 @@
+{
+  "results": [
+    {
+      "case": "inspection_faster",
+      "passed": true,
+      "batch_id": 1058227327,
+      "produced": 12,
+      "accepted": 9,
+      "rejected": 3
+    },
+    {
+      "case": "production_faster_with_room",
+      "passed": true,
+      "batch_id": 2892262860,
+      "produced": 12,
+      "accepted": 8,
+      "rejected": 4
+    },
+    {
+      "case": "pause_resume",
+      "passed": true,
+      "batch_id": 3078535256,
+      "produced": 20,
+      "accepted": 18,
+      "rejected": 2
+    },
+    {
+      "case": "stop_aborts",
+      "passed": true,
+      "batch_id": 949887884
+    },
+    {
+      "case": "queue_full_fault",
+      "passed": true,
+      "batch_id": 2677167671,
+      "fault": "Inspection queue full; documented policy is Fault"
+    }
+  ],
+  "websocket_errors": []
+}

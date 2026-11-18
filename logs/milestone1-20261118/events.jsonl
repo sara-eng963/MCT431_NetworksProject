@@ -1,0 +1,924 @@
+{"event": "connected", "time_ns": 1794983226879270500, "monotonic_ns": 423343982082600, "serial_port": "COM7", "host": "192.168.100.39", "port": 9000}
+{"event": "command_delivery", "time_ns": 1794983226899740000, "monotonic_ns": 423344002551800, "cmd_id": 15, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983226899807000, "monotonic_ns": 423344002618300, "cmd_id": 15, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983230256965700, "monotonic_ns": 423347359743200, "cmd_id": 15, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983230282801500, "monotonic_ns": 423347385578500, "cmd_id": 16, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983230282963700, "monotonic_ns": 423347385740800, "cmd_id": 16, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983230302520300, "monotonic_ns": 423347405297300, "cmd_id": 16, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983230507072700, "monotonic_ns": 423347609847200, "part_id": 1, "batch_id": 3633878, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983230706794700, "monotonic_ns": 423347809567100, "part_id": 2, "batch_id": 3633878, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983230906945600, "monotonic_ns": 423348009716000, "part_id": 3, "batch_id": 3633878, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794983231106912100, "monotonic_ns": 423348209680500, "part_id": 4, "batch_id": 3633878, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794983231306743300, "monotonic_ns": 423348409509600, "part_id": 5, "batch_id": 3633878, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794983231506777400, "monotonic_ns": 423348609541700, "part_id": 6, "batch_id": 3633878, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794983231706756100, "monotonic_ns": 423348809518300, "part_id": 7, "batch_id": 3633878, "waiting": 6}
+{"event": "part_queued", "time_ns": 1794983231906846900, "monotonic_ns": 423349009607100, "part_id": 8, "batch_id": 3633878, "waiting": 7}
+{"event": "part_queued", "time_ns": 1794983232106761200, "monotonic_ns": 423349209519400, "part_id": 9, "batch_id": 3633878, "waiting": 8}
+{"event": "fault", "time_ns": 1794983232306795500, "monotonic_ns": 423349409551600, "reason": "Inspection queue full; documented policy is Fault", "batch_id": 3633878}
+{"event": "command_delivery", "time_ns": 1794983318833537900, "monotonic_ns": 423435935411800, "cmd_id": 18, "action": "stop"}
+{"event": "command_acceptance", "time_ns": 1794983318833583500, "monotonic_ns": 423435935457100, "cmd_id": 18, "action": "stop"}
+{"event": "command_completion", "time_ns": 1794983318863338100, "monotonic_ns": 423435965211800, "cmd_id": 18, "action": "stop", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983318884093800, "monotonic_ns": 423435985967100, "cmd_id": 19, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983318884128600, "monotonic_ns": 423435986001600, "cmd_id": 19, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983319134671500, "monotonic_ns": 423436236542300, "cmd_id": 19, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983319147514000, "monotonic_ns": 423436249384600, "cmd_id": 20, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983319147593100, "monotonic_ns": 423436249463600, "cmd_id": 20, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983319160911000, "monotonic_ns": 423436262781400, "cmd_id": 20, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983319665226900, "monotonic_ns": 423436767092000, "part_id": 11, "batch_id": 3984960274, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983319953416000, "monotonic_ns": 423437055278000, "batch_id": 3984960274, "part_id": 11, "job_id": 21, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983320165173600, "monotonic_ns": 423437267033600, "part_id": 12, "batch_id": 3984960274, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983320464499400, "monotonic_ns": 423437566356300, "batch_id": 3984960274, "part_id": 12, "job_id": 22, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983320665209000, "monotonic_ns": 423437767063900, "part_id": 13, "batch_id": 3984960274, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983320778349900, "monotonic_ns": 423437880203600, "batch_id": 3984960274, "part_id": 13, "job_id": 23, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794983320778367500, "monotonic_ns": 423437880221200, "batch_id": 3984960274, "target": 3, "accepted": 3, "rejected": 0}
+{"event": "command_delivery", "time_ns": 1794983336027692500, "monotonic_ns": 423453129391000, "cmd_id": 24, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983336027726900, "monotonic_ns": 423453129425100, "cmd_id": 24, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983336143568200, "monotonic_ns": 423453245265200, "cmd_id": 24, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983336170811800, "monotonic_ns": 423453272508900, "cmd_id": 25, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983336170861600, "monotonic_ns": 423453272558300, "cmd_id": 25, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983336190770000, "monotonic_ns": 423453292466900, "cmd_id": 25, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983336394872500, "monotonic_ns": 423453496566900, "part_id": 14, "batch_id": 92623760, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983336595009600, "monotonic_ns": 423453696702000, "part_id": 15, "batch_id": 92623760, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983336749175100, "monotonic_ns": 423453850865900, "batch_id": 92623760, "part_id": 14, "job_id": 26, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983336794911700, "monotonic_ns": 423453896602000, "part_id": 16, "batch_id": 92623760, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983336994855800, "monotonic_ns": 423454096544100, "part_id": 17, "batch_id": 92623760, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983337053953500, "monotonic_ns": 423454155641200, "batch_id": 92623760, "part_id": 15, "job_id": 27, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983337194834300, "monotonic_ns": 423454296520600, "part_id": 18, "batch_id": 92623760, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983337209351400, "monotonic_ns": 423454311037400, "batch_id": 92623760, "part_id": 16, "job_id": 28, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983337394929700, "monotonic_ns": 423454496613900, "part_id": 19, "batch_id": 92623760, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983337460940100, "monotonic_ns": 423454562623600, "batch_id": 92623760, "part_id": 17, "job_id": 29, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983337595068000, "monotonic_ns": 423454696750200, "part_id": 20, "batch_id": 92623760, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983337673275000, "monotonic_ns": 423454774956400, "batch_id": 92623760, "part_id": 18, "job_id": 30, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983337794872700, "monotonic_ns": 423454896552800, "part_id": 21, "batch_id": 92623760, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983337827274800, "monotonic_ns": 423454928954600, "batch_id": 92623760, "part_id": 19, "job_id": 31, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983337972608600, "monotonic_ns": 423455074286900, "batch_id": 92623760, "part_id": 20, "job_id": 32, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983337994885600, "monotonic_ns": 423455096563800, "part_id": 22, "batch_id": 92623760, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983338139404200, "monotonic_ns": 423455241080900, "batch_id": 92623760, "part_id": 21, "job_id": 33, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983338194789100, "monotonic_ns": 423455296465200, "part_id": 23, "batch_id": 92623760, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983338282520900, "monotonic_ns": 423455384196100, "batch_id": 92623760, "part_id": 22, "job_id": 34, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983338444313400, "monotonic_ns": 423455545987000, "batch_id": 92623760, "part_id": 23, "job_id": 35, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794983338444342200, "monotonic_ns": 423455546015700, "batch_id": 92623760, "target": 10, "accepted": 8, "rejected": 2}
+{"event": "command_delivery", "time_ns": 1794983338471808100, "monotonic_ns": 423455573481600, "cmd_id": 36, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983338471854500, "monotonic_ns": 423455573527800, "cmd_id": 36, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983338742209600, "monotonic_ns": 423455843880700, "cmd_id": 36, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983338753585500, "monotonic_ns": 423455855256100, "cmd_id": 37, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983338753625900, "monotonic_ns": 423455855296400, "cmd_id": 37, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983338770485700, "monotonic_ns": 423455872156100, "cmd_id": 37, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983338974846800, "monotonic_ns": 423456076514900, "part_id": 24, "batch_id": 2068310985, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983339187350400, "monotonic_ns": 423456289016400, "part_id": 25, "batch_id": 2068310985, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983339331534200, "monotonic_ns": 423456433198700, "batch_id": 2068310985, "part_id": 24, "job_id": 38, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983339375166700, "monotonic_ns": 423456476830800, "part_id": 26, "batch_id": 2068310985, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983339515912900, "monotonic_ns": 423456617575400, "batch_id": 2068310985, "part_id": 25, "job_id": 39, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983339574803400, "monotonic_ns": 423456676465400, "part_id": 27, "batch_id": 2068310985, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983339716728800, "monotonic_ns": 423456818389400, "batch_id": 2068310985, "part_id": 26, "job_id": 40, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983339774920700, "monotonic_ns": 423456876580700, "part_id": 28, "batch_id": 2068310985, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983339921520800, "monotonic_ns": 423457023179300, "batch_id": 2068310985, "part_id": 27, "job_id": 41, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983339974818200, "monotonic_ns": 423457076476100, "part_id": 29, "batch_id": 2068310985, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983340174843100, "monotonic_ns": 423457276499000, "part_id": 30, "batch_id": 2068310985, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983340328083700, "monotonic_ns": 423457429738000, "batch_id": 2068310985, "part_id": 28, "job_id": 42, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983340374806700, "monotonic_ns": 423457476460500, "part_id": 31, "batch_id": 2068310985, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794983340574780700, "monotonic_ns": 423457676432500, "part_id": 32, "batch_id": 2068310985, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794983340774832800, "monotonic_ns": 423457876482500, "part_id": 33, "batch_id": 2068310985, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794983341047452800, "monotonic_ns": 423458149099800, "batch_id": 2068310985, "part_id": 29, "job_id": 43, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983341457827600, "monotonic_ns": 423458559470400, "batch_id": 2068310985, "part_id": 30, "job_id": 44, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794983341877136500, "monotonic_ns": 423458978775000, "batch_id": 2068310985, "part_id": 31, "job_id": 45, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983342071368500, "monotonic_ns": 423459173004900, "batch_id": 2068310985, "part_id": 32, "job_id": 46, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983342283010000, "monotonic_ns": 423459384644400, "batch_id": 2068310985, "part_id": 33, "job_id": 47, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794983342283022700, "monotonic_ns": 423459384657100, "batch_id": 2068310985, "target": 10, "accepted": 8, "rejected": 2}
+{"event": "command_delivery", "time_ns": 1794983342376782200, "monotonic_ns": 423459478415700, "cmd_id": 48, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983342376836600, "monotonic_ns": 423459478470000, "cmd_id": 48, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983342583692600, "monotonic_ns": 423459685324300, "cmd_id": 48, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983342606300700, "monotonic_ns": 423459707931900, "cmd_id": 49, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983342606325300, "monotonic_ns": 423459707956500, "cmd_id": 49, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983342620616100, "monotonic_ns": 423459722247600, "cmd_id": 49, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983342824838100, "monotonic_ns": 423459926466900, "part_id": 34, "batch_id": 3091727357, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983342992879800, "monotonic_ns": 423460094506900, "batch_id": 3091727357, "part_id": 34, "job_id": 50, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983343024780200, "monotonic_ns": 423460126407000, "part_id": 35, "batch_id": 3091727357, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983343225000200, "monotonic_ns": 423460326625100, "part_id": 36, "batch_id": 3091727357, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983343299477300, "monotonic_ns": 423460401101300, "batch_id": 3091727357, "part_id": 35, "job_id": 51, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983343424870100, "monotonic_ns": 423460526492800, "part_id": 37, "batch_id": 3091727357, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983343453050800, "monotonic_ns": 423460554673200, "batch_id": 3091727357, "part_id": 36, "job_id": 52, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983343608289600, "monotonic_ns": 423460709910300, "batch_id": 3091727357, "part_id": 37, "job_id": 53, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983343624999000, "monotonic_ns": 423460726619900, "part_id": 38, "batch_id": 3091727357, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983343816766300, "monotonic_ns": 423460918384900, "batch_id": 3091727357, "part_id": 38, "job_id": 54, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983343824845100, "monotonic_ns": 423460926463700, "part_id": 39, "batch_id": 3091727357, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983343969567200, "monotonic_ns": 423461071184300, "batch_id": 3091727357, "part_id": 39, "job_id": 55, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983344024809300, "monotonic_ns": 423461126425900, "part_id": 40, "batch_id": 3091727357, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983344224818300, "monotonic_ns": 423461326433000, "part_id": 41, "batch_id": 3091727357, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983344424982500, "monotonic_ns": 423461526595200, "part_id": 42, "batch_id": 3091727357, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983344437876000, "monotonic_ns": 423461539488400, "batch_id": 3091727357, "part_id": 40, "job_id": 56, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983344624695800, "monotonic_ns": 423461726306300, "part_id": 43, "batch_id": 3091727357, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983344639525100, "monotonic_ns": 423461741135400, "batch_id": 3091727357, "part_id": 41, "job_id": 57, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983344775609000, "monotonic_ns": 423461877217900, "batch_id": 3091727357, "part_id": 42, "job_id": 58, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983344936141000, "monotonic_ns": 423462037748300, "batch_id": 3091727357, "part_id": 43, "job_id": 59, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794983344936158000, "monotonic_ns": 423462037765300, "batch_id": 3091727357, "target": 10, "accepted": 8, "rejected": 2}
+{"event": "fault", "time_ns": 1794983403160122500, "monotonic_ns": 423520261136800, "reason": "Inspector status is stale", "batch_id": 3091727357}
+{"event": "connected", "time_ns": 1794983766845049300, "monotonic_ns": 423883942552600, "serial_port": "COM7", "host": "192.168.100.39", "port": 9000}
+{"event": "command_delivery", "time_ns": 1794983766864582500, "monotonic_ns": 423883962085800, "cmd_id": 51, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983766864634200, "monotonic_ns": 423883962137300, "cmd_id": 51, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983767005633400, "monotonic_ns": 423884103135800, "cmd_id": 51, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983767033440800, "monotonic_ns": 423884130942500, "cmd_id": 52, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983767033487600, "monotonic_ns": 423884130989100, "cmd_id": 52, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983767052827700, "monotonic_ns": 423884150329200, "cmd_id": 52, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983767256992400, "monotonic_ns": 423884354491900, "part_id": 44, "batch_id": 1058227327, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983767386601900, "monotonic_ns": 423884484100200, "batch_id": 1058227327, "part_id": 44, "job_id": 53, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983767457079300, "monotonic_ns": 423884554576800, "part_id": 45, "batch_id": 1058227327, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983767595134800, "monotonic_ns": 423884692631200, "batch_id": 1058227327, "part_id": 45, "job_id": 54, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983767656993000, "monotonic_ns": 423884754488800, "part_id": 46, "batch_id": 1058227327, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983767857736000, "monotonic_ns": 423884955230100, "part_id": 47, "batch_id": 1058227327, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983768057021000, "monotonic_ns": 423885154513200, "part_id": 48, "batch_id": 1058227327, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794983768257058100, "monotonic_ns": 423885354548400, "part_id": 49, "batch_id": 1058227327, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794983768456996700, "monotonic_ns": 423885554485200, "part_id": 50, "batch_id": 1058227327, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794983768549539100, "monotonic_ns": 423885647026800, "batch_id": 1058227327, "part_id": 46, "job_id": 55, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983768616579100, "monotonic_ns": 423885714066100, "batch_id": 1058227327, "part_id": 47, "job_id": 56, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983768657203800, "monotonic_ns": 423885754690600, "part_id": 51, "batch_id": 1058227327, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794983768695213400, "monotonic_ns": 423885792699800, "batch_id": 1058227327, "part_id": 48, "job_id": 57, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983768774757900, "monotonic_ns": 423885872243600, "batch_id": 1058227327, "part_id": 49, "job_id": 58, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983768848965500, "monotonic_ns": 423885946450500, "batch_id": 1058227327, "part_id": 50, "job_id": 59, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983768856994600, "monotonic_ns": 423885954479500, "part_id": 52, "batch_id": 1058227327, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983768912897200, "monotonic_ns": 423886010381600, "batch_id": 1058227327, "part_id": 51, "job_id": 60, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983768993040300, "monotonic_ns": 423886090524000, "batch_id": 1058227327, "part_id": 52, "job_id": 61, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983769057034900, "monotonic_ns": 423886154518100, "part_id": 53, "batch_id": 1058227327, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983769226423300, "monotonic_ns": 423886323904700, "batch_id": 1058227327, "part_id": 53, "job_id": 62, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983769257046200, "monotonic_ns": 423886354527400, "part_id": 54, "batch_id": 1058227327, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983769435571600, "monotonic_ns": 423886533051200, "batch_id": 1058227327, "part_id": 54, "job_id": 63, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983769457169300, "monotonic_ns": 423886554648700, "part_id": 55, "batch_id": 1058227327, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983769536642300, "monotonic_ns": 423886634121000, "batch_id": 1058227327, "part_id": 55, "job_id": 64, "verdict": "FAIL"}
+{"event": "batch_completed", "time_ns": 1794983769536666900, "monotonic_ns": 423886634145600, "batch_id": 1058227327, "target": 12, "accepted": 9, "rejected": 3}
+{"event": "command_delivery", "time_ns": 1794983769592079000, "monotonic_ns": 423886689557600, "cmd_id": 65, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983769592136000, "monotonic_ns": 423886689614200, "cmd_id": 65, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983769681681200, "monotonic_ns": 423886779158600, "cmd_id": 65, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983769701884300, "monotonic_ns": 423886799361600, "cmd_id": 66, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983769701925200, "monotonic_ns": 423886799402400, "cmd_id": 66, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983769722813200, "monotonic_ns": 423886820290300, "cmd_id": 66, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983769807136100, "monotonic_ns": 423886904612300, "part_id": 56, "batch_id": 2892262860, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983769888116500, "monotonic_ns": 423886985592000, "part_id": 57, "batch_id": 2892262860, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983769967149900, "monotonic_ns": 423887064624700, "part_id": 58, "batch_id": 2892262860, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983770022959600, "monotonic_ns": 423887120434000, "batch_id": 2892262860, "part_id": 56, "job_id": 67, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983770047036000, "monotonic_ns": 423887144510200, "part_id": 59, "batch_id": 2892262860, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794983770127068500, "monotonic_ns": 423887224541800, "part_id": 60, "batch_id": 2892262860, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794983770207076500, "monotonic_ns": 423887304549100, "part_id": 61, "batch_id": 2892262860, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794983770222314800, "monotonic_ns": 423887319787300, "batch_id": 2892262860, "part_id": 57, "job_id": 68, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983770286935700, "monotonic_ns": 423887384407600, "part_id": 62, "batch_id": 2892262860, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794983770366970600, "monotonic_ns": 423887464441700, "part_id": 63, "batch_id": 2892262860, "waiting": 5}
+{"event": "inspection_completed", "time_ns": 1794983770433217900, "monotonic_ns": 423887530688500, "batch_id": 2892262860, "part_id": 58, "job_id": 69, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983770447475000, "monotonic_ns": 423887544945400, "part_id": 64, "batch_id": 2892262860, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794983770526994800, "monotonic_ns": 423887624464500, "part_id": 65, "batch_id": 2892262860, "waiting": 6}
+{"event": "part_queued", "time_ns": 1794983770606962900, "monotonic_ns": 423887704431800, "part_id": 66, "batch_id": 2892262860, "waiting": 7}
+{"event": "inspection_completed", "time_ns": 1794983770650825700, "monotonic_ns": 423887748294300, "batch_id": 2892262860, "part_id": 59, "job_id": 70, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983770686894700, "monotonic_ns": 423887784362900, "part_id": 67, "batch_id": 2892262860, "waiting": 7}
+{"event": "inspection_completed", "time_ns": 1794983770854328000, "monotonic_ns": 423887951794600, "batch_id": 2892262860, "part_id": 60, "job_id": 71, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983771042372200, "monotonic_ns": 423888139837200, "batch_id": 2892262860, "part_id": 61, "job_id": 72, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983771243410100, "monotonic_ns": 423888340873400, "batch_id": 2892262860, "part_id": 62, "job_id": 73, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794983771484393400, "monotonic_ns": 423888581854400, "batch_id": 2892262860, "part_id": 63, "job_id": 74, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983771725115500, "monotonic_ns": 423888822574200, "batch_id": 2892262860, "part_id": 64, "job_id": 75, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983771950165200, "monotonic_ns": 423889047622000, "batch_id": 2892262860, "part_id": 65, "job_id": 76, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794983772193454600, "monotonic_ns": 423889290909100, "batch_id": 2892262860, "part_id": 66, "job_id": 77, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983772524168600, "monotonic_ns": 423889621620200, "batch_id": 2892262860, "part_id": 67, "job_id": 78, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794983772524198100, "monotonic_ns": 423889621649600, "batch_id": 2892262860, "target": 12, "accepted": 8, "rejected": 4}
+{"event": "command_delivery", "time_ns": 1794983772584545200, "monotonic_ns": 423889681996300, "cmd_id": 79, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983772584571100, "monotonic_ns": 423889682022100, "cmd_id": 79, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983772826613800, "monotonic_ns": 423889924063000, "cmd_id": 79, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983772829724100, "monotonic_ns": 423889927172900, "cmd_id": 80, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983772829748300, "monotonic_ns": 423889927197000, "cmd_id": 80, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983772852647700, "monotonic_ns": 423889950096500, "cmd_id": 80, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983772977060100, "monotonic_ns": 423890074507500, "part_id": 68, "batch_id": 3078535256, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983773096880700, "monotonic_ns": 423890194327000, "part_id": 69, "batch_id": 3078535256, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983773214114200, "monotonic_ns": 423890311559500, "batch_id": 3078535256, "part_id": 68, "job_id": 81, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983773217046600, "monotonic_ns": 423890314491900, "part_id": 70, "batch_id": 3078535256, "waiting": 1}
+{"event": "command_delivery", "time_ns": 1794983773297046500, "monotonic_ns": 423890394491500, "cmd_id": 83, "action": "pause"}
+{"event": "command_acceptance", "time_ns": 1794983773297094100, "monotonic_ns": 423890394538700, "cmd_id": 83, "action": "pause"}
+{"event": "command_completion", "time_ns": 1794983773312610700, "monotonic_ns": 423890410055000, "cmd_id": 83, "action": "pause", "phase": "completion", "state": "Paused"}
+{"event": "inspection_completed", "time_ns": 1794983773383568100, "monotonic_ns": 423890481011800, "batch_id": 3078535256, "part_id": 69, "job_id": 82, "verdict": "PASS"}
+{"event": "command_delivery", "time_ns": 1794983773955524300, "monotonic_ns": 423891052962900, "cmd_id": 84, "action": "resume"}
+{"event": "command_acceptance", "time_ns": 1794983773955551400, "monotonic_ns": 423891052989900, "cmd_id": 84, "action": "resume"}
+{"event": "command_completion", "time_ns": 1794983773972593800, "monotonic_ns": 423891070032100, "cmd_id": 84, "action": "resume", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983774096872000, "monotonic_ns": 423891194309200, "part_id": 71, "batch_id": 3078535256, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983774154738500, "monotonic_ns": 423891252175300, "batch_id": 3078535256, "part_id": 70, "job_id": 85, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983774217020900, "monotonic_ns": 423891314457000, "part_id": 72, "batch_id": 3078535256, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983774324465800, "monotonic_ns": 423891421901000, "batch_id": 3078535256, "part_id": 71, "job_id": 86, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983774336972300, "monotonic_ns": 423891434407400, "part_id": 73, "batch_id": 3078535256, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983774456858000, "monotonic_ns": 423891554292000, "part_id": 74, "batch_id": 3078535256, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983774494123300, "monotonic_ns": 423891591556900, "batch_id": 3078535256, "part_id": 72, "job_id": 87, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983774577062100, "monotonic_ns": 423891674495000, "part_id": 75, "batch_id": 3078535256, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794983774668502800, "monotonic_ns": 423891765934700, "batch_id": 3078535256, "part_id": 73, "job_id": 88, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983774696905100, "monotonic_ns": 423891794336800, "part_id": 76, "batch_id": 3078535256, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794983774816968000, "monotonic_ns": 423891914398700, "part_id": 77, "batch_id": 3078535256, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794983774842977000, "monotonic_ns": 423891940407400, "batch_id": 3078535256, "part_id": 74, "job_id": 89, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794983774936873200, "monotonic_ns": 423892034302900, "part_id": 78, "batch_id": 3078535256, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794983775030195400, "monotonic_ns": 423892127624100, "batch_id": 3078535256, "part_id": 75, "job_id": 90, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983775056869200, "monotonic_ns": 423892154297800, "part_id": 79, "batch_id": 3078535256, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794983775176780100, "monotonic_ns": 423892274207400, "part_id": 80, "batch_id": 3078535256, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794983775233540200, "monotonic_ns": 423892330967100, "batch_id": 3078535256, "part_id": 76, "job_id": 91, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983775296994800, "monotonic_ns": 423892394421100, "part_id": 81, "batch_id": 3078535256, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794983775403999000, "monotonic_ns": 423892501424300, "batch_id": 3078535256, "part_id": 77, "job_id": 92, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983775416868300, "monotonic_ns": 423892514293600, "part_id": 82, "batch_id": 3078535256, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794983775536856600, "monotonic_ns": 423892634280700, "part_id": 83, "batch_id": 3078535256, "waiting": 5}
+{"event": "inspection_completed", "time_ns": 1794983775622308000, "monotonic_ns": 423892719731300, "batch_id": 3078535256, "part_id": 78, "job_id": 93, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983775656869700, "monotonic_ns": 423892754292700, "part_id": 84, "batch_id": 3078535256, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794983775776944500, "monotonic_ns": 423892874366300, "part_id": 85, "batch_id": 3078535256, "waiting": 6}
+{"event": "inspection_completed", "time_ns": 1794983775847358600, "monotonic_ns": 423892944779900, "batch_id": 3078535256, "part_id": 79, "job_id": 94, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983775896868300, "monotonic_ns": 423892994289000, "part_id": 86, "batch_id": 3078535256, "waiting": 6}
+{"event": "part_queued", "time_ns": 1794983776016896700, "monotonic_ns": 423893114316400, "part_id": 87, "batch_id": 3078535256, "waiting": 7}
+{"event": "inspection_completed", "time_ns": 1794983776236555300, "monotonic_ns": 423893333973000, "batch_id": 3078535256, "part_id": 80, "job_id": 95, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983776412242000, "monotonic_ns": 423893509658100, "batch_id": 3078535256, "part_id": 81, "job_id": 96, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794983776582632100, "monotonic_ns": 423893680046700, "batch_id": 3078535256, "part_id": 82, "job_id": 97, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983776761505600, "monotonic_ns": 423893858918600, "batch_id": 3078535256, "part_id": 83, "job_id": 98, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983776932148000, "monotonic_ns": 423894029559500, "batch_id": 3078535256, "part_id": 84, "job_id": 99, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983777117630500, "monotonic_ns": 423894215040100, "batch_id": 3078535256, "part_id": 85, "job_id": 100, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983777293396000, "monotonic_ns": 423894390804200, "batch_id": 3078535256, "part_id": 86, "job_id": 101, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794983777465050800, "monotonic_ns": 423894562457400, "batch_id": 3078535256, "part_id": 87, "job_id": 102, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794983777465064800, "monotonic_ns": 423894562471400, "batch_id": 3078535256, "target": 20, "accepted": 18, "rejected": 2}
+{"event": "command_delivery", "time_ns": 1794983777552078500, "monotonic_ns": 423894649484400, "cmd_id": 103, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983777552110900, "monotonic_ns": 423894649516700, "cmd_id": 103, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983777613624600, "monotonic_ns": 423894711030500, "cmd_id": 103, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983777645493500, "monotonic_ns": 423894742898500, "cmd_id": 104, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983777645521100, "monotonic_ns": 423894742926000, "cmd_id": 104, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983777662604800, "monotonic_ns": 423894760009700, "cmd_id": 104, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983777766802100, "monotonic_ns": 423894864206000, "part_id": 88, "batch_id": 949887884, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983777866830900, "monotonic_ns": 423894964233800, "part_id": 89, "batch_id": 949887884, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983777955069900, "monotonic_ns": 423895052472000, "batch_id": 949887884, "part_id": 88, "job_id": 105, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983777966847900, "monotonic_ns": 423895064249900, "part_id": 90, "batch_id": 949887884, "waiting": 1}
+{"event": "command_delivery", "time_ns": 1794983778034588500, "monotonic_ns": 423895131990100, "cmd_id": 107, "action": "stop"}
+{"event": "command_acceptance", "time_ns": 1794983778034619200, "monotonic_ns": 423895132020600, "cmd_id": 107, "action": "stop"}
+{"event": "command_completion", "time_ns": 1794983778101085100, "monotonic_ns": 423895198486500, "cmd_id": 107, "action": "stop", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983778523271800, "monotonic_ns": 423895620668800, "cmd_id": 108, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983778523299600, "monotonic_ns": 423895620696600, "cmd_id": 108, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983778564122800, "monotonic_ns": 423895661520000, "cmd_id": 108, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983778601880800, "monotonic_ns": 423895699277600, "cmd_id": 109, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983778601919900, "monotonic_ns": 423895699316100, "cmd_id": 109, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983778622632400, "monotonic_ns": 423895720028700, "cmd_id": 109, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983778676891900, "monotonic_ns": 423895774287400, "part_id": 91, "batch_id": 2677167671, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983778726755300, "monotonic_ns": 423895824150500, "part_id": 92, "batch_id": 2677167671, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983778776859400, "monotonic_ns": 423895874254000, "part_id": 93, "batch_id": 2677167671, "waiting": 2}
+{"event": "fault", "time_ns": 1794983778826796000, "monotonic_ns": 423895924190200, "reason": "Inspection queue full; documented policy is Fault", "batch_id": 2677167671}
+{"event": "command_delivery", "time_ns": 1794983782508531500, "monotonic_ns": 423899605892500, "cmd_id": 111, "action": "stop"}
+{"event": "command_acceptance", "time_ns": 1794983782508557800, "monotonic_ns": 423899605918600, "cmd_id": 111, "action": "stop"}
+{"event": "command_completion", "time_ns": 1794983782598388200, "monotonic_ns": 423899695748400, "cmd_id": 111, "action": "stop", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983782626484000, "monotonic_ns": 423899723843700, "cmd_id": 112, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794983782626512600, "monotonic_ns": 423899723872200, "cmd_id": 112, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794983782658111000, "monotonic_ns": 423899755470600, "cmd_id": 112, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794983782674363500, "monotonic_ns": 423899771722800, "cmd_id": 113, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794983782674400900, "monotonic_ns": 423899771760200, "cmd_id": 113, "action": "start"}
+{"event": "command_completion", "time_ns": 1794983782692434000, "monotonic_ns": 423899789793600, "cmd_id": 113, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794983782876682500, "monotonic_ns": 423899974039700, "part_id": 95, "batch_id": 171899406, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794983782982717200, "monotonic_ns": 423900080073500, "batch_id": 171899406, "part_id": 95, "job_id": 114, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794983783056731000, "monotonic_ns": 423900154086700, "part_id": 96, "batch_id": 171899406, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983783236744400, "monotonic_ns": 423900334098500, "part_id": 97, "batch_id": 171899406, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794983783416753700, "monotonic_ns": 423900514106100, "part_id": 98, "batch_id": 171899406, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794983783596637800, "monotonic_ns": 423900693988600, "part_id": 99, "batch_id": 171899406, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794983783776780600, "monotonic_ns": 423900874129800, "part_id": 100, "batch_id": 171899406, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794983783956707700, "monotonic_ns": 423901054055200, "part_id": 101, "batch_id": 171899406, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794983784136692300, "monotonic_ns": 423901234038100, "part_id": 102, "batch_id": 171899406, "waiting": 6}
+{"event": "part_queued", "time_ns": 1794983784316757900, "monotonic_ns": 423901414102100, "part_id": 103, "batch_id": 171899406, "waiting": 7}
+{"event": "part_queued", "time_ns": 1794983784496765800, "monotonic_ns": 423901594108400, "part_id": 104, "batch_id": 171899406, "waiting": 8}
+{"event": "fault", "time_ns": 1794983784676703400, "monotonic_ns": 423901774044400, "reason": "Inspection queue full; documented policy is Fault", "batch_id": 171899406}
+{"event": "connected", "time_ns": 1794984101607140000, "monotonic_ns": 424218701597600, "serial_port": "COM7", "host": "192.168.100.39", "port": 9000}
+{"event": "command_delivery", "time_ns": 1794984101633143500, "monotonic_ns": 424218727600600, "cmd_id": 117, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984101633209000, "monotonic_ns": 424218727665700, "cmd_id": 117, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984101750466000, "monotonic_ns": 424218844921600, "cmd_id": 117, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984101786294000, "monotonic_ns": 424218880749300, "cmd_id": 118, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984101786347200, "monotonic_ns": 424218880802500, "cmd_id": 118, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984101806495200, "monotonic_ns": 424218900950300, "cmd_id": 118, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984102011075800, "monotonic_ns": 424219105528900, "part_id": 106, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984102112555500, "monotonic_ns": 424219207007900, "batch_id": 4246481872, "part_id": 106, "job_id": 119, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984102210801100, "monotonic_ns": 424219305252500, "part_id": 107, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984102321698000, "monotonic_ns": 424219416148400, "batch_id": 4246481872, "part_id": 107, "job_id": 120, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984102410802100, "monotonic_ns": 424219505251700, "part_id": 108, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984102524205500, "monotonic_ns": 424219618654000, "batch_id": 4246481872, "part_id": 108, "job_id": 121, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984102610797000, "monotonic_ns": 424219705244700, "part_id": 109, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984102793374800, "monotonic_ns": 424219887820900, "batch_id": 4246481872, "part_id": 109, "job_id": 122, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984102811260300, "monotonic_ns": 424219905706200, "part_id": 110, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984102882413500, "monotonic_ns": 424219976859000, "batch_id": 4246481872, "part_id": 110, "job_id": 123, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984103010820900, "monotonic_ns": 424220105264900, "part_id": 111, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984103121956100, "monotonic_ns": 424220216399300, "batch_id": 4246481872, "part_id": 111, "job_id": 124, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984103210944700, "monotonic_ns": 424220305387100, "part_id": 112, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984103335506000, "monotonic_ns": 424220429947200, "batch_id": 4246481872, "part_id": 112, "job_id": 125, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984103410971300, "monotonic_ns": 424220505411800, "part_id": 113, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984103541550800, "monotonic_ns": 424220635990200, "batch_id": 4246481872, "part_id": 113, "job_id": 126, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984103610792300, "monotonic_ns": 424220705230900, "part_id": 114, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984103692368000, "monotonic_ns": 424220786805900, "batch_id": 4246481872, "part_id": 114, "job_id": 127, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984103810777000, "monotonic_ns": 424220905213800, "part_id": 115, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984103892968400, "monotonic_ns": 424220987404500, "batch_id": 4246481872, "part_id": 115, "job_id": 128, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984104011061600, "monotonic_ns": 424221105496600, "part_id": 116, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984104095192900, "monotonic_ns": 424221189627200, "batch_id": 4246481872, "part_id": 116, "job_id": 129, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984104210929400, "monotonic_ns": 424221305362700, "part_id": 117, "batch_id": 4246481872, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984104302389300, "monotonic_ns": 424221396821700, "batch_id": 4246481872, "part_id": 117, "job_id": 130, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794984104302408200, "monotonic_ns": 424221396840500, "batch_id": 4246481872, "target": 12, "accepted": 10, "rejected": 2}
+{"event": "command_delivery", "time_ns": 1794984104373833300, "monotonic_ns": 424221468265100, "cmd_id": 131, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984104373865100, "monotonic_ns": 424221468296800, "cmd_id": 131, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984104455257800, "monotonic_ns": 424221549689300, "cmd_id": 131, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984104483561900, "monotonic_ns": 424221577992600, "cmd_id": 132, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984104483587400, "monotonic_ns": 424221578018200, "cmd_id": 132, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984104506558400, "monotonic_ns": 424221600989100, "cmd_id": 132, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984104590836400, "monotonic_ns": 424221685266100, "part_id": 118, "batch_id": 862480810, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984104671216300, "monotonic_ns": 424221765645400, "part_id": 119, "batch_id": 862480810, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984104750950900, "monotonic_ns": 424221845379200, "part_id": 120, "batch_id": 862480810, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794984104830794900, "monotonic_ns": 424221925222400, "part_id": 121, "batch_id": 862480810, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794984104910801600, "monotonic_ns": 424222005228400, "part_id": 122, "batch_id": 862480810, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794984104990931000, "monotonic_ns": 424222085357000, "part_id": 123, "batch_id": 862480810, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794984105070796400, "monotonic_ns": 424222165221700, "part_id": 124, "batch_id": 862480810, "waiting": 6}
+{"event": "part_queued", "time_ns": 1794984105150851400, "monotonic_ns": 424222245276100, "part_id": 125, "batch_id": 862480810, "waiting": 7}
+{"event": "part_queued", "time_ns": 1794984105231963000, "monotonic_ns": 424222326387000, "part_id": 126, "batch_id": 862480810, "waiting": 8}
+{"event": "part_queued", "time_ns": 1794984105310778900, "monotonic_ns": 424222405202100, "part_id": 127, "batch_id": 862480810, "waiting": 9}
+{"event": "part_queued", "time_ns": 1794984105390763600, "monotonic_ns": 424222485186000, "part_id": 128, "batch_id": 862480810, "waiting": 10}
+{"event": "inspection_completed", "time_ns": 1794984105404225300, "monotonic_ns": 424222498647600, "batch_id": 862480810, "part_id": 118, "job_id": 133, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984105470843600, "monotonic_ns": 424222565265400, "part_id": 129, "batch_id": 862480810, "waiting": 10}
+{"event": "inspection_completed", "time_ns": 1794984105624040300, "monotonic_ns": 424222718460700, "batch_id": 862480810, "part_id": 119, "job_id": 134, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984105823946600, "monotonic_ns": 424222918365100, "batch_id": 862480810, "part_id": 120, "job_id": 135, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984106033748300, "monotonic_ns": 424223128165000, "batch_id": 862480810, "part_id": 121, "job_id": 136, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984106818643600, "monotonic_ns": 424223913053100, "batch_id": 862480810, "part_id": 122, "job_id": 137, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984107012091400, "monotonic_ns": 424224106499100, "batch_id": 862480810, "part_id": 123, "job_id": 138, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984107213116300, "monotonic_ns": 424224307522200, "batch_id": 862480810, "part_id": 124, "job_id": 139, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984107422652100, "monotonic_ns": 424224517056000, "batch_id": 862480810, "part_id": 125, "job_id": 140, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984107622952000, "monotonic_ns": 424224717354100, "batch_id": 862480810, "part_id": 126, "job_id": 141, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984107841833300, "monotonic_ns": 424224936233500, "batch_id": 862480810, "part_id": 127, "job_id": 142, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984108050836400, "monotonic_ns": 424225145234500, "batch_id": 862480810, "part_id": 128, "job_id": 143, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984108261046600, "monotonic_ns": 424225355442900, "batch_id": 862480810, "part_id": 129, "job_id": 144, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794984108261075400, "monotonic_ns": 424225355471800, "batch_id": 862480810, "target": 12, "accepted": 8, "rejected": 4}
+{"event": "command_delivery", "time_ns": 1794984108317631900, "monotonic_ns": 424225412028100, "cmd_id": 145, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984108317691300, "monotonic_ns": 424225412087300, "cmd_id": 145, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984108434758800, "monotonic_ns": 424225529153500, "cmd_id": 145, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984108473768400, "monotonic_ns": 424225568163200, "cmd_id": 146, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984108473828500, "monotonic_ns": 424225568223100, "cmd_id": 146, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984108496490200, "monotonic_ns": 424225590884600, "cmd_id": 146, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984108620702800, "monotonic_ns": 424225715095900, "part_id": 130, "batch_id": 1229258427, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984108740702400, "monotonic_ns": 424225835094400, "part_id": 131, "batch_id": 1229258427, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984108781043900, "monotonic_ns": 424225875435500, "batch_id": 1229258427, "part_id": 130, "job_id": 147, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984108860650900, "monotonic_ns": 424225955041800, "part_id": 132, "batch_id": 1229258427, "waiting": 1}
+{"event": "command_delivery", "time_ns": 1794984108927005700, "monotonic_ns": 424226021396200, "cmd_id": 149, "action": "pause"}
+{"event": "command_acceptance", "time_ns": 1794984108927048700, "monotonic_ns": 424226021439000, "cmd_id": 149, "action": "pause"}
+{"event": "command_completion", "time_ns": 1794984108946386200, "monotonic_ns": 424226040776600, "cmd_id": 149, "action": "pause", "phase": "completion", "state": "Paused"}
+{"event": "inspection_completed", "time_ns": 1794984108966978200, "monotonic_ns": 424226061368100, "batch_id": 1229258427, "part_id": 131, "job_id": 148, "verdict": "PASS"}
+{"event": "command_delivery", "time_ns": 1794984109602381200, "monotonic_ns": 424226696765400, "cmd_id": 150, "action": "resume"}
+{"event": "command_acceptance", "time_ns": 1794984109602415100, "monotonic_ns": 424226696799300, "cmd_id": 150, "action": "resume"}
+{"event": "command_completion", "time_ns": 1794984109616381100, "monotonic_ns": 424226710765500, "cmd_id": 150, "action": "resume", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984109740730200, "monotonic_ns": 424226835113200, "part_id": 133, "batch_id": 1229258427, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984109840937900, "monotonic_ns": 424226935319800, "batch_id": 1229258427, "part_id": 132, "job_id": 151, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984109860650500, "monotonic_ns": 424226955032300, "part_id": 134, "batch_id": 1229258427, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984109980702300, "monotonic_ns": 424227075083000, "part_id": 135, "batch_id": 1229258427, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794984110014007400, "monotonic_ns": 424227108387900, "batch_id": 1229258427, "part_id": 133, "job_id": 152, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984110100824800, "monotonic_ns": 424227195204400, "part_id": 136, "batch_id": 1229258427, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794984110192060800, "monotonic_ns": 424227286439500, "batch_id": 1229258427, "part_id": 134, "job_id": 153, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984110220681000, "monotonic_ns": 424227315059500, "part_id": 137, "batch_id": 1229258427, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794984110340695500, "monotonic_ns": 424227435072900, "part_id": 138, "batch_id": 1229258427, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794984110372740500, "monotonic_ns": 424227467117600, "batch_id": 1229258427, "part_id": 135, "job_id": 154, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984110460685400, "monotonic_ns": 424227555061700, "part_id": 139, "batch_id": 1229258427, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794984110541809300, "monotonic_ns": 424227636184900, "batch_id": 1229258427, "part_id": 136, "job_id": 155, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984110580606100, "monotonic_ns": 424227674981300, "part_id": 140, "batch_id": 1229258427, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794984110700683700, "monotonic_ns": 424227795057700, "part_id": 141, "batch_id": 1229258427, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794984110711122200, "monotonic_ns": 424227805496200, "batch_id": 1229258427, "part_id": 137, "job_id": 156, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984110820671000, "monotonic_ns": 424227915044000, "part_id": 142, "batch_id": 1229258427, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794984110884519000, "monotonic_ns": 424227978891500, "batch_id": 1229258427, "part_id": 138, "job_id": 157, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984110940663000, "monotonic_ns": 424228035034900, "part_id": 143, "batch_id": 1229258427, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794984111051614300, "monotonic_ns": 424228145985400, "batch_id": 1229258427, "part_id": 139, "job_id": 158, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984111060866200, "monotonic_ns": 424228155237000, "part_id": 144, "batch_id": 1229258427, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794984111180598500, "monotonic_ns": 424228274968300, "part_id": 145, "batch_id": 1229258427, "waiting": 5}
+{"event": "inspection_completed", "time_ns": 1794984111220932700, "monotonic_ns": 424228315302100, "batch_id": 1229258427, "part_id": 140, "job_id": 159, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984111300957800, "monotonic_ns": 424228395326500, "part_id": 146, "batch_id": 1229258427, "waiting": 5}
+{"event": "inspection_completed", "time_ns": 1794984111381043600, "monotonic_ns": 424228475411500, "batch_id": 1229258427, "part_id": 141, "job_id": 160, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984111420706200, "monotonic_ns": 424228515073900, "part_id": 147, "batch_id": 1229258427, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794984111540634700, "monotonic_ns": 424228635001200, "part_id": 148, "batch_id": 1229258427, "waiting": 6}
+{"event": "inspection_completed", "time_ns": 1794984111562453200, "monotonic_ns": 424228656819400, "batch_id": 1229258427, "part_id": 142, "job_id": 161, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984111660858200, "monotonic_ns": 424228755223700, "part_id": 149, "batch_id": 1229258427, "waiting": 6}
+{"event": "inspection_completed", "time_ns": 1794984111732275100, "monotonic_ns": 424228826639900, "batch_id": 1229258427, "part_id": 143, "job_id": 162, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984111912815800, "monotonic_ns": 424229007178900, "batch_id": 1229258427, "part_id": 144, "job_id": 163, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984112717474000, "monotonic_ns": 424229811829900, "batch_id": 1229258427, "part_id": 145, "job_id": 164, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984112890874200, "monotonic_ns": 424229985228400, "batch_id": 1229258427, "part_id": 146, "job_id": 165, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984113072136800, "monotonic_ns": 424230166489600, "batch_id": 1229258427, "part_id": 147, "job_id": 166, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984113244085000, "monotonic_ns": 424230338436000, "batch_id": 1229258427, "part_id": 148, "job_id": 167, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984113424046600, "monotonic_ns": 424230518395900, "batch_id": 1229258427, "part_id": 149, "job_id": 168, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794984113424060800, "monotonic_ns": 424230518410100, "batch_id": 1229258427, "target": 20, "accepted": 17, "rejected": 3}
+{"event": "command_delivery", "time_ns": 1794984113457046900, "monotonic_ns": 424230551396000, "cmd_id": 169, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984113457075400, "monotonic_ns": 424230551424400, "cmd_id": 169, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984113577085600, "monotonic_ns": 424230671433700, "cmd_id": 169, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984113590084800, "monotonic_ns": 424230684432700, "cmd_id": 170, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984113590117400, "monotonic_ns": 424230684465300, "cmd_id": 170, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984113606254500, "monotonic_ns": 424230700602700, "cmd_id": 170, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984113710642700, "monotonic_ns": 424230804989400, "part_id": 150, "batch_id": 1385969261, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984113810590800, "monotonic_ns": 424230904936600, "part_id": 151, "batch_id": 1385969261, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984113900777800, "monotonic_ns": 424230995122800, "batch_id": 1385969261, "part_id": 150, "job_id": 171, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984113910623800, "monotonic_ns": 424231004968700, "part_id": 152, "batch_id": 1385969261, "waiting": 1}
+{"event": "command_delivery", "time_ns": 1794984113932309300, "monotonic_ns": 424231026654100, "cmd_id": 173, "action": "stop"}
+{"event": "command_acceptance", "time_ns": 1794984113932335400, "monotonic_ns": 424231026680100, "cmd_id": 173, "action": "stop"}
+{"event": "command_completion", "time_ns": 1794984113956781700, "monotonic_ns": 424231051126500, "cmd_id": 173, "action": "stop", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984114353003500, "monotonic_ns": 424231447344500, "cmd_id": 174, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984114353056500, "monotonic_ns": 424231447397600, "cmd_id": 174, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984114404220900, "monotonic_ns": 424231498561500, "cmd_id": 174, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984114443670500, "monotonic_ns": 424231538010800, "cmd_id": 175, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984114443705400, "monotonic_ns": 424231538045500, "cmd_id": 175, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984114466296900, "monotonic_ns": 424231560636800, "cmd_id": 175, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984114520611200, "monotonic_ns": 424231614950600, "part_id": 153, "batch_id": 3369653712, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984114570634600, "monotonic_ns": 424231664973500, "part_id": 154, "batch_id": 3369653712, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984114620549400, "monotonic_ns": 424231714887700, "part_id": 155, "batch_id": 3369653712, "waiting": 2}
+{"event": "fault", "time_ns": 1794984114670690000, "monotonic_ns": 424231765028000, "reason": "Inspection queue full; documented policy is Fault", "batch_id": 3369653712}
+{"event": "command_delivery", "time_ns": 1794984118513015300, "monotonic_ns": 424235607318700, "cmd_id": 177, "action": "stop"}
+{"event": "command_acceptance", "time_ns": 1794984118513049600, "monotonic_ns": 424235607352700, "cmd_id": 177, "action": "stop"}
+{"event": "command_completion", "time_ns": 1794984118682591200, "monotonic_ns": 424235776893200, "cmd_id": 177, "action": "stop", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984118711737200, "monotonic_ns": 424235806038500, "cmd_id": 178, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984118711770900, "monotonic_ns": 424235806072200, "cmd_id": 178, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984118770572600, "monotonic_ns": 424235864873900, "cmd_id": 178, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984118788338500, "monotonic_ns": 424235882639300, "cmd_id": 179, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984118788385700, "monotonic_ns": 424235882686300, "cmd_id": 179, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984118806244200, "monotonic_ns": 424235900544700, "cmd_id": 179, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984118990726400, "monotonic_ns": 424236085025100, "part_id": 157, "batch_id": 832203165, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984119166363600, "monotonic_ns": 424236260660700, "batch_id": 832203165, "part_id": 157, "job_id": 180, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984119170504100, "monotonic_ns": 424236264801200, "part_id": 158, "batch_id": 832203165, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984119292022400, "monotonic_ns": 424236386318300, "batch_id": 832203165, "part_id": 158, "job_id": 181, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984119350558000, "monotonic_ns": 424236444853400, "part_id": 159, "batch_id": 832203165, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984119530540900, "monotonic_ns": 424236624834700, "part_id": 160, "batch_id": 832203165, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984119574620800, "monotonic_ns": 424236668914100, "batch_id": 832203165, "part_id": 159, "job_id": 182, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984119710615800, "monotonic_ns": 424236804908100, "part_id": 161, "batch_id": 832203165, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984119726793700, "monotonic_ns": 424236821085800, "batch_id": 832203165, "part_id": 160, "job_id": 183, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984119890497500, "monotonic_ns": 424236984788000, "part_id": 162, "batch_id": 832203165, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984119918246100, "monotonic_ns": 424237012536300, "batch_id": 832203165, "part_id": 161, "job_id": 184, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984120015352400, "monotonic_ns": 424237109642000, "batch_id": 832203165, "part_id": 162, "job_id": 185, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984120070520500, "monotonic_ns": 424237164809300, "part_id": 163, "batch_id": 832203165, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984120250496000, "monotonic_ns": 424237344783300, "part_id": 164, "batch_id": 832203165, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984120430475500, "monotonic_ns": 424237524761100, "part_id": 165, "batch_id": 832203165, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794984120610498100, "monotonic_ns": 424237704782000, "part_id": 166, "batch_id": 832203165, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794984120790603300, "monotonic_ns": 424237884885600, "part_id": 167, "batch_id": 832203165, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794984120970474300, "monotonic_ns": 424238064755000, "part_id": 168, "batch_id": 832203165, "waiting": 5}
+{"event": "inspection_completed", "time_ns": 1794984122495534700, "monotonic_ns": 424239589801400, "batch_id": 832203165, "part_id": 163, "job_id": 186, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984122585925300, "monotonic_ns": 424239680191300, "batch_id": 832203165, "part_id": 164, "job_id": 187, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984122673942500, "monotonic_ns": 424239768207700, "batch_id": 832203165, "part_id": 165, "job_id": 188, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984122773278900, "monotonic_ns": 424239867543200, "batch_id": 832203165, "part_id": 166, "job_id": 189, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984122866079600, "monotonic_ns": 424239960343100, "batch_id": 832203165, "part_id": 167, "job_id": 190, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984122963529300, "monotonic_ns": 424240057791800, "batch_id": 832203165, "part_id": 168, "job_id": 191, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794984122963546900, "monotonic_ns": 424240057809400, "batch_id": 832203165, "target": 12, "accepted": 9, "rejected": 3}
+{"event": "fault", "time_ns": 1794984375356980800, "monotonic_ns": 424492448947000, "reason": "Inspector status is stale", "batch_id": 832203165}
+{"event": "connected", "time_ns": 1794984474885997200, "monotonic_ns": 424591977057200, "serial_port": "COM7", "host": "192.168.100.39", "port": 9000}
+{"event": "connected", "time_ns": 1794984512740269500, "monotonic_ns": 424629830985300, "serial_port": "COM7", "host": "192.168.100.39", "port": 9000}
+{"event": "command_delivery", "time_ns": 1794984512967341700, "monotonic_ns": 424630058055400, "cmd_id": 194, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984512967387300, "monotonic_ns": 424630058100900, "cmd_id": 194, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984513153085200, "monotonic_ns": 424630243797500, "cmd_id": 194, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984513299085200, "monotonic_ns": 424630389796000, "cmd_id": 195, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984513299132200, "monotonic_ns": 424630389842800, "cmd_id": 195, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984513319202000, "monotonic_ns": 424630409912700, "cmd_id": 195, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984514123521600, "monotonic_ns": 424631214224500, "part_id": 169, "batch_id": 943025621, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984514489944600, "monotonic_ns": 424631580644200, "batch_id": 943025621, "part_id": 169, "job_id": 196, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984514923526100, "monotonic_ns": 424632014221800, "part_id": 170, "batch_id": 943025621, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984515246574600, "monotonic_ns": 424632337267300, "batch_id": 943025621, "part_id": 170, "job_id": 197, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984515723571700, "monotonic_ns": 424632814260100, "part_id": 171, "batch_id": 943025621, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984516305568300, "monotonic_ns": 424633396251400, "batch_id": 943025621, "part_id": 171, "job_id": 198, "verdict": "FAIL"}
+{"event": "batch_completed", "time_ns": 1794984516305646800, "monotonic_ns": 424633396330000, "batch_id": 943025621, "target": 3, "accepted": 1, "rejected": 2}
+{"event": "connected", "time_ns": 1794984534766921700, "monotonic_ns": 424651857437500, "serial_port": "COM7", "host": "192.168.100.39", "port": 9000}
+{"event": "command_delivery", "time_ns": 1794984534796223500, "monotonic_ns": 424651886738400, "cmd_id": 200, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984534796250000, "monotonic_ns": 424651886764800, "cmd_id": 200, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984534882192700, "monotonic_ns": 424651972707300, "cmd_id": 200, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984534905345300, "monotonic_ns": 424651995859400, "cmd_id": 201, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984534905384900, "monotonic_ns": 424651995898900, "cmd_id": 201, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984534918849500, "monotonic_ns": 424652009363700, "cmd_id": 201, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984535123078500, "monotonic_ns": 424652213590400, "part_id": 172, "batch_id": 2598739152, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984535323145000, "monotonic_ns": 424652413655000, "part_id": 173, "batch_id": 2598739152, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984535361458500, "monotonic_ns": 424652451968200, "batch_id": 2598739152, "part_id": 172, "job_id": 202, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984535434614200, "monotonic_ns": 424652525123200, "batch_id": 2598739152, "part_id": 173, "job_id": 203, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984535523113600, "monotonic_ns": 424652613621800, "part_id": 174, "batch_id": 2598739152, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984535645884200, "monotonic_ns": 424652736391300, "batch_id": 2598739152, "part_id": 174, "job_id": 204, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984535723120300, "monotonic_ns": 424652813626700, "part_id": 175, "batch_id": 2598739152, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984535923072800, "monotonic_ns": 424653013577400, "part_id": 176, "batch_id": 2598739152, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984536123300100, "monotonic_ns": 424653213803000, "part_id": 177, "batch_id": 2598739152, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794984536323418900, "monotonic_ns": 424653413919900, "part_id": 178, "batch_id": 2598739152, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794984536523019500, "monotonic_ns": 424653613518600, "part_id": 179, "batch_id": 2598739152, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794984536540172600, "monotonic_ns": 424653630671500, "batch_id": 2598739152, "part_id": 175, "job_id": 205, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984536614767500, "monotonic_ns": 424653705265900, "batch_id": 2598739152, "part_id": 176, "job_id": 206, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984536686028300, "monotonic_ns": 424653776526100, "batch_id": 2598739152, "part_id": 177, "job_id": 207, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984536723180000, "monotonic_ns": 424653813677300, "part_id": 180, "batch_id": 2598739152, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794984536785784100, "monotonic_ns": 424653876280900, "batch_id": 2598739152, "part_id": 178, "job_id": 208, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984536866459200, "monotonic_ns": 424653956955200, "batch_id": 2598739152, "part_id": 179, "job_id": 209, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984536923064900, "monotonic_ns": 424654013560400, "part_id": 181, "batch_id": 2598739152, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984537026341400, "monotonic_ns": 424654116836000, "batch_id": 2598739152, "part_id": 180, "job_id": 210, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984537123078600, "monotonic_ns": 424654213572400, "part_id": 182, "batch_id": 2598739152, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984537323122500, "monotonic_ns": 424654413614400, "part_id": 183, "batch_id": 2598739152, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794984537540480400, "monotonic_ns": 424654630970300, "batch_id": 2598739152, "part_id": 181, "job_id": 211, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984537616945600, "monotonic_ns": 424654707434800, "batch_id": 2598739152, "part_id": 182, "job_id": 212, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984537685770000, "monotonic_ns": 424654776258500, "batch_id": 2598739152, "part_id": 183, "job_id": 213, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794984537685791700, "monotonic_ns": 424654776280200, "batch_id": 2598739152, "target": 12, "accepted": 10, "rejected": 2}
+{"event": "command_delivery", "time_ns": 1794984537719454200, "monotonic_ns": 424654809942500, "cmd_id": 214, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984537719499100, "monotonic_ns": 424654809987400, "cmd_id": 214, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984537757795200, "monotonic_ns": 424654848283500, "cmd_id": 214, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984537782234500, "monotonic_ns": 424654872722500, "cmd_id": 215, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984537782285800, "monotonic_ns": 424654872773600, "cmd_id": 215, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984537798911400, "monotonic_ns": 424654889399200, "cmd_id": 215, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984537883097200, "monotonic_ns": 424654973584000, "part_id": 184, "batch_id": 2456410548, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984537963065300, "monotonic_ns": 424655053551400, "part_id": 185, "batch_id": 2456410548, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984538043132800, "monotonic_ns": 424655133618100, "part_id": 186, "batch_id": 2456410548, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794984538123297300, "monotonic_ns": 424655213782000, "part_id": 187, "batch_id": 2456410548, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794984538127139300, "monotonic_ns": 424655217623900, "batch_id": 2456410548, "part_id": 184, "job_id": 216, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984538203090900, "monotonic_ns": 424655293574700, "part_id": 188, "batch_id": 2456410548, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794984538283154500, "monotonic_ns": 424655373637700, "part_id": 189, "batch_id": 2456410548, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794984538326026900, "monotonic_ns": 424655416509600, "batch_id": 2456410548, "part_id": 185, "job_id": 217, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984538363131300, "monotonic_ns": 424655453613700, "part_id": 190, "batch_id": 2456410548, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794984538443123200, "monotonic_ns": 424655533605000, "part_id": 191, "batch_id": 2456410548, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794984538523285700, "monotonic_ns": 424655613766700, "part_id": 192, "batch_id": 2456410548, "waiting": 6}
+{"event": "inspection_completed", "time_ns": 1794984538536876200, "monotonic_ns": 424655627357100, "batch_id": 2456410548, "part_id": 186, "job_id": 218, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984538603043400, "monotonic_ns": 424655693523600, "part_id": 193, "batch_id": 2456410548, "waiting": 6}
+{"event": "part_queued", "time_ns": 1794984538683088500, "monotonic_ns": 424655773568100, "part_id": 194, "batch_id": 2456410548, "waiting": 7}
+{"event": "inspection_completed", "time_ns": 1794984538730872800, "monotonic_ns": 424655821351800, "batch_id": 2456410548, "part_id": 187, "job_id": 219, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984538763127100, "monotonic_ns": 424655853605800, "part_id": 195, "batch_id": 2456410548, "waiting": 7}
+{"event": "inspection_completed", "time_ns": 1794984538925299600, "monotonic_ns": 424656015776900, "batch_id": 2456410548, "part_id": 188, "job_id": 220, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984539143205200, "monotonic_ns": 424656233680500, "batch_id": 2456410548, "part_id": 189, "job_id": 221, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984539356361200, "monotonic_ns": 424656446834500, "batch_id": 2456410548, "part_id": 190, "job_id": 222, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984539561072200, "monotonic_ns": 424656651543800, "batch_id": 2456410548, "part_id": 191, "job_id": 223, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984539765807500, "monotonic_ns": 424656856277100, "batch_id": 2456410548, "part_id": 192, "job_id": 224, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984539974814800, "monotonic_ns": 424657065282600, "batch_id": 2456410548, "part_id": 193, "job_id": 225, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984540165061200, "monotonic_ns": 424657255527200, "batch_id": 2456410548, "part_id": 194, "job_id": 226, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984540375108200, "monotonic_ns": 424657465572300, "batch_id": 2456410548, "part_id": 195, "job_id": 227, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794984540375130500, "monotonic_ns": 424657465594600, "batch_id": 2456410548, "target": 12, "accepted": 8, "rejected": 4}
+{"event": "command_delivery", "time_ns": 1794984540440800800, "monotonic_ns": 424657531264400, "cmd_id": 228, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984540440843900, "monotonic_ns": 424657531307400, "cmd_id": 228, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984540529903800, "monotonic_ns": 424657620366900, "cmd_id": 228, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984540567752500, "monotonic_ns": 424657658215200, "cmd_id": 229, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984540567818400, "monotonic_ns": 424657658280800, "cmd_id": 229, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984540588735700, "monotonic_ns": 424657679198200, "cmd_id": 229, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984540713032700, "monotonic_ns": 424657803493700, "part_id": 196, "batch_id": 3740844308, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984540833011900, "monotonic_ns": 424657923471800, "part_id": 197, "batch_id": 3740844308, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984540885938500, "monotonic_ns": 424657976397900, "batch_id": 3740844308, "part_id": 196, "job_id": 230, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984540953044400, "monotonic_ns": 424658043503200, "part_id": 198, "batch_id": 3740844308, "waiting": 1}
+{"event": "command_delivery", "time_ns": 1794984540989169000, "monotonic_ns": 424658079627700, "cmd_id": 232, "action": "pause"}
+{"event": "command_acceptance", "time_ns": 1794984540989220100, "monotonic_ns": 424658079678900, "cmd_id": 232, "action": "pause"}
+{"event": "command_completion", "time_ns": 1794984541008683300, "monotonic_ns": 424658099141900, "cmd_id": 232, "action": "pause", "phase": "completion", "state": "Paused"}
+{"event": "inspection_completed", "time_ns": 1794984541064967200, "monotonic_ns": 424658155425100, "batch_id": 3740844308, "part_id": 197, "job_id": 231, "verdict": "PASS"}
+{"event": "command_delivery", "time_ns": 1794984541643196900, "monotonic_ns": 424658733649500, "cmd_id": 233, "action": "resume"}
+{"event": "command_acceptance", "time_ns": 1794984541643228400, "monotonic_ns": 424658733680900, "cmd_id": 233, "action": "resume"}
+{"event": "command_completion", "time_ns": 1794984541658679800, "monotonic_ns": 424658749132500, "cmd_id": 233, "action": "resume", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984541783061900, "monotonic_ns": 424658873513300, "part_id": 199, "batch_id": 3740844308, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984541903271400, "monotonic_ns": 424658993721900, "part_id": 200, "batch_id": 3740844308, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794984542023319100, "monotonic_ns": 424659113768300, "part_id": 201, "batch_id": 3740844308, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794984542143018000, "monotonic_ns": 424659233466100, "part_id": 202, "batch_id": 3740844308, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794984542263205000, "monotonic_ns": 424659353652000, "part_id": 203, "batch_id": 3740844308, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794984542382999700, "monotonic_ns": 424659473445500, "part_id": 204, "batch_id": 3740844308, "waiting": 6}
+{"event": "part_queued", "time_ns": 1794984542502949000, "monotonic_ns": 424659593393800, "part_id": 205, "batch_id": 3740844308, "waiting": 7}
+{"event": "part_queued", "time_ns": 1794984542622989400, "monotonic_ns": 424659713433000, "part_id": 206, "batch_id": 3740844308, "waiting": 8}
+{"event": "inspection_completed", "time_ns": 1794984542638796600, "monotonic_ns": 424659729240100, "batch_id": 3740844308, "part_id": 198, "job_id": 234, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984542742935900, "monotonic_ns": 424659833378400, "part_id": 207, "batch_id": 3740844308, "waiting": 8}
+{"event": "part_queued", "time_ns": 1794984542862998200, "monotonic_ns": 424659953439700, "part_id": 208, "batch_id": 3740844308, "waiting": 9}
+{"event": "part_queued", "time_ns": 1794984542983035500, "monotonic_ns": 424660073475800, "part_id": 209, "batch_id": 3740844308, "waiting": 10}
+{"event": "part_queued", "time_ns": 1794984543102938200, "monotonic_ns": 424660193377500, "part_id": 210, "batch_id": 3740844308, "waiting": 11}
+{"event": "part_queued", "time_ns": 1794984543222986600, "monotonic_ns": 424660313424800, "part_id": 211, "batch_id": 3740844308, "waiting": 12}
+{"event": "part_queued", "time_ns": 1794984543344984100, "monotonic_ns": 424660435421100, "part_id": 212, "batch_id": 3740844308, "waiting": 13}
+{"event": "inspection_completed", "time_ns": 1794984543439489100, "monotonic_ns": 424660529925300, "batch_id": 3740844308, "part_id": 199, "job_id": 235, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984543462916300, "monotonic_ns": 424660553352300, "part_id": 213, "batch_id": 3740844308, "waiting": 13}
+{"event": "part_queued", "time_ns": 1794984543582949300, "monotonic_ns": 424660673384200, "part_id": 214, "batch_id": 3740844308, "waiting": 14}
+{"event": "inspection_completed", "time_ns": 1794984543605668400, "monotonic_ns": 424660696103200, "batch_id": 3740844308, "part_id": 200, "job_id": 236, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984543702998300, "monotonic_ns": 424660793432100, "part_id": 215, "batch_id": 3740844308, "waiting": 14}
+{"event": "inspection_completed", "time_ns": 1794984543775315100, "monotonic_ns": 424660865748300, "batch_id": 3740844308, "part_id": 201, "job_id": 237, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984545370053700, "monotonic_ns": 424662460472200, "batch_id": 3740844308, "part_id": 202, "job_id": 238, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984545546043400, "monotonic_ns": 424662636460400, "batch_id": 3740844308, "part_id": 203, "job_id": 239, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984545715357100, "monotonic_ns": 424662805772600, "batch_id": 3740844308, "part_id": 204, "job_id": 240, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984546642621800, "monotonic_ns": 424663733028800, "batch_id": 3740844308, "part_id": 205, "job_id": 241, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984546909173300, "monotonic_ns": 424663999578000, "batch_id": 3740844308, "part_id": 206, "job_id": 242, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984547114032300, "monotonic_ns": 424664204435100, "batch_id": 3740844308, "part_id": 207, "job_id": 243, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984547322067900, "monotonic_ns": 424664412468800, "batch_id": 3740844308, "part_id": 208, "job_id": 244, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984547527664800, "monotonic_ns": 424664618063800, "batch_id": 3740844308, "part_id": 209, "job_id": 245, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984547734480700, "monotonic_ns": 424664824877900, "batch_id": 3740844308, "part_id": 210, "job_id": 246, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984548067695000, "monotonic_ns": 424665158089200, "batch_id": 3740844308, "part_id": 211, "job_id": 247, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984548273800600, "monotonic_ns": 424665364192800, "batch_id": 3740844308, "part_id": 212, "job_id": 248, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984548450812900, "monotonic_ns": 424665541203400, "batch_id": 3740844308, "part_id": 213, "job_id": 249, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984548626872700, "monotonic_ns": 424665717261700, "batch_id": 3740844308, "part_id": 214, "job_id": 250, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984548810105900, "monotonic_ns": 424665900493200, "batch_id": 3740844308, "part_id": 215, "job_id": 251, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794984548810120400, "monotonic_ns": 424665900507700, "batch_id": 3740844308, "target": 20, "accepted": 17, "rejected": 3}
+{"event": "command_delivery", "time_ns": 1794984548886115900, "monotonic_ns": 424665976502800, "cmd_id": 252, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984548886169500, "monotonic_ns": 424665976556100, "cmd_id": 252, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984548961284200, "monotonic_ns": 424666051670600, "cmd_id": 252, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984548994914100, "monotonic_ns": 424666085299900, "cmd_id": 253, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984548994948300, "monotonic_ns": 424666085333900, "cmd_id": 253, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984549008544600, "monotonic_ns": 424666098930400, "cmd_id": 253, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984549112896700, "monotonic_ns": 424666203281400, "part_id": 216, "batch_id": 3196139493, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984549212876600, "monotonic_ns": 424666303260300, "part_id": 217, "batch_id": 3196139493, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984549307977100, "monotonic_ns": 424666398359900, "batch_id": 3196139493, "part_id": 216, "job_id": 254, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984549312880900, "monotonic_ns": 424666403263600, "part_id": 218, "batch_id": 3196139493, "waiting": 2}
+{"event": "command_delivery", "time_ns": 1794984549369064000, "monotonic_ns": 424666459446500, "cmd_id": 256, "action": "stop"}
+{"event": "command_acceptance", "time_ns": 1794984549369124600, "monotonic_ns": 424666459507000, "cmd_id": 256, "action": "stop"}
+{"event": "command_completion", "time_ns": 1794984549475871600, "monotonic_ns": 424666566253300, "cmd_id": 256, "action": "stop", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984549884792200, "monotonic_ns": 424666975169800, "cmd_id": 257, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984549884821300, "monotonic_ns": 424666975198800, "cmd_id": 257, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984549953261600, "monotonic_ns": 424667043639000, "cmd_id": 257, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984549976481800, "monotonic_ns": 424667066858600, "cmd_id": 258, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984549976507000, "monotonic_ns": 424667066883600, "cmd_id": 258, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984549998531400, "monotonic_ns": 424667088907900, "cmd_id": 258, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984550053033900, "monotonic_ns": 424667143410000, "part_id": 219, "batch_id": 1198768038, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984550102788600, "monotonic_ns": 424667193164200, "part_id": 220, "batch_id": 1198768038, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984550152952400, "monotonic_ns": 424667243327500, "part_id": 221, "batch_id": 1198768038, "waiting": 2}
+{"event": "fault", "time_ns": 1794984550202896900, "monotonic_ns": 424667293271600, "reason": "Inspection queue full; documented policy is Fault", "batch_id": 1198768038}
+{"event": "command_delivery", "time_ns": 1794984554678281600, "monotonic_ns": 424671768615800, "cmd_id": 260, "action": "stop"}
+{"event": "command_acceptance", "time_ns": 1794984554678322600, "monotonic_ns": 424671768656500, "cmd_id": 260, "action": "stop"}
+{"event": "command_completion", "time_ns": 1794984555159612500, "monotonic_ns": 424672249942600, "cmd_id": 260, "action": "stop", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984555176506000, "monotonic_ns": 424672266835600, "cmd_id": 261, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794984555176554900, "monotonic_ns": 424672266884400, "cmd_id": 261, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794984555394123700, "monotonic_ns": 424672484452000, "cmd_id": 261, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794984555429325900, "monotonic_ns": 424672519653300, "cmd_id": 262, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794984555429376300, "monotonic_ns": 424672519703500, "cmd_id": 262, "action": "start"}
+{"event": "command_completion", "time_ns": 1794984555448545000, "monotonic_ns": 424672538872100, "cmd_id": 262, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794984555632743400, "monotonic_ns": 424672723068600, "part_id": 223, "batch_id": 4180833419, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984555728333500, "monotonic_ns": 424672818657900, "batch_id": 4180833419, "part_id": 223, "job_id": 263, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984555812833100, "monotonic_ns": 424672903156700, "part_id": 224, "batch_id": 4180833419, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984555946877400, "monotonic_ns": 424673037199800, "batch_id": 4180833419, "part_id": 224, "job_id": 264, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984555992788900, "monotonic_ns": 424673083111000, "part_id": 225, "batch_id": 4180833419, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984556164798600, "monotonic_ns": 424673255119200, "batch_id": 4180833419, "part_id": 225, "job_id": 265, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984556172693500, "monotonic_ns": 424673263013800, "part_id": 226, "batch_id": 4180833419, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984556274517000, "monotonic_ns": 424673364836400, "batch_id": 4180833419, "part_id": 226, "job_id": 266, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794984556352900100, "monotonic_ns": 424673443218800, "part_id": 227, "batch_id": 4180833419, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984556495473600, "monotonic_ns": 424673585791000, "batch_id": 4180833419, "part_id": 227, "job_id": 267, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984556532739200, "monotonic_ns": 424673623056200, "part_id": 228, "batch_id": 4180833419, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984556712702900, "monotonic_ns": 424673803018400, "part_id": 229, "batch_id": 4180833419, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984556724491000, "monotonic_ns": 424673814806300, "batch_id": 4180833419, "part_id": 228, "job_id": 268, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984556816032400, "monotonic_ns": 424673906346900, "batch_id": 4180833419, "part_id": 229, "job_id": 269, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984556892678600, "monotonic_ns": 424673982992500, "part_id": 230, "batch_id": 4180833419, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984557072786000, "monotonic_ns": 424674163098200, "part_id": 231, "batch_id": 4180833419, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984557122307000, "monotonic_ns": 424674212618600, "batch_id": 4180833419, "part_id": 230, "job_id": 270, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794984557214994600, "monotonic_ns": 424674305305500, "batch_id": 4180833419, "part_id": 231, "job_id": 271, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984557252768100, "monotonic_ns": 424674343078700, "part_id": 232, "batch_id": 4180833419, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794984557432742000, "monotonic_ns": 424674523050900, "part_id": 233, "batch_id": 4180833419, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984557447805300, "monotonic_ns": 424674538113900, "batch_id": 4180833419, "part_id": 232, "job_id": 272, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794984557544314200, "monotonic_ns": 424674634622000, "batch_id": 4180833419, "part_id": 233, "job_id": 273, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794984557612731700, "monotonic_ns": 424674703038900, "part_id": 234, "batch_id": 4180833419, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794984557769022600, "monotonic_ns": 424674859328400, "batch_id": 4180833419, "part_id": 234, "job_id": 274, "verdict": "FAIL"}
+{"event": "batch_completed", "time_ns": 1794984557769041600, "monotonic_ns": 424674859347400, "batch_id": 4180833419, "target": 12, "accepted": 9, "rejected": 3}
+{"event": "command_delivery", "time_ns": 1794985413053866600, "monotonic_ns": 425530137032100, "cmd_id": 275, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794985413053912900, "monotonic_ns": 425530137078400, "cmd_id": 275, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794985413087586100, "monotonic_ns": 425530170751900, "cmd_id": 275, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794985414685457200, "monotonic_ns": 425531768609200, "cmd_id": 276, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794985414685497000, "monotonic_ns": 425531768648900, "cmd_id": 276, "action": "start"}
+{"event": "command_completion", "time_ns": 1794985414701926300, "monotonic_ns": 425531785078100, "cmd_id": 276, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794985414856269800, "monotonic_ns": 425531939420300, "part_id": 235, "batch_id": 3763786410, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794985415006388400, "monotonic_ns": 425532089537800, "part_id": 236, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985415020913100, "monotonic_ns": 425532104062300, "batch_id": 3763786410, "part_id": 235, "job_id": 277, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985415125314500, "monotonic_ns": 425532208462900, "batch_id": 3763786410, "part_id": 236, "job_id": 278, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985415156306100, "monotonic_ns": 425532239454100, "part_id": 237, "batch_id": 3763786410, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794985415306274800, "monotonic_ns": 425532389421700, "part_id": 238, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985415352231500, "monotonic_ns": 425532435377900, "batch_id": 3763786410, "part_id": 237, "job_id": 279, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985415456300100, "monotonic_ns": 425532539445700, "part_id": 239, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985415463544000, "monotonic_ns": 425532546689700, "batch_id": 3763786410, "part_id": 238, "job_id": 280, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794985415606270900, "monotonic_ns": 425532689415200, "part_id": 240, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985415613890400, "monotonic_ns": 425532697034600, "batch_id": 3763786410, "part_id": 239, "job_id": 281, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985415712477400, "monotonic_ns": 425532795620800, "batch_id": 3763786410, "part_id": 240, "job_id": 282, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985415756408600, "monotonic_ns": 425532839551700, "part_id": 241, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985415889452400, "monotonic_ns": 425532972594400, "batch_id": 3763786410, "part_id": 241, "job_id": 283, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985415906259900, "monotonic_ns": 425532989401800, "part_id": 242, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985416001890200, "monotonic_ns": 425533085031200, "batch_id": 3763786410, "part_id": 242, "job_id": 284, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794985416056332300, "monotonic_ns": 425533139472900, "part_id": 243, "batch_id": 3763786410, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794985416206270800, "monotonic_ns": 425533289410000, "part_id": 244, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985416248971000, "monotonic_ns": 425533332110000, "batch_id": 3763786410, "part_id": 243, "job_id": 285, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985416351690800, "monotonic_ns": 425533434828900, "batch_id": 3763786410, "part_id": 244, "job_id": 286, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985416356236700, "monotonic_ns": 425533439374700, "part_id": 245, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985416466609900, "monotonic_ns": 425533549747100, "batch_id": 3763786410, "part_id": 245, "job_id": 287, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985416506395000, "monotonic_ns": 425533589531900, "part_id": 246, "batch_id": 3763786410, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794985416656399500, "monotonic_ns": 425533739535100, "part_id": 247, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985416701147600, "monotonic_ns": 425533784282900, "batch_id": 3763786410, "part_id": 246, "job_id": 288, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794985416806210700, "monotonic_ns": 425533889344900, "part_id": 248, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985416812029000, "monotonic_ns": 425533895163300, "batch_id": 3763786410, "part_id": 247, "job_id": 289, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985416913167300, "monotonic_ns": 425533996300800, "batch_id": 3763786410, "part_id": 248, "job_id": 290, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985416956244400, "monotonic_ns": 425534039377600, "part_id": 249, "batch_id": 3763786410, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794985417106226200, "monotonic_ns": 425534189358100, "part_id": 250, "batch_id": 3763786410, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794985417256266700, "monotonic_ns": 425534339397400, "part_id": 251, "batch_id": 3763786410, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794985417406218700, "monotonic_ns": 425534489348000, "part_id": 252, "batch_id": 3763786410, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794985417556267200, "monotonic_ns": 425534639395300, "part_id": 253, "batch_id": 3763786410, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794985417706338300, "monotonic_ns": 425534789465200, "part_id": 254, "batch_id": 3763786410, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794985417856336400, "monotonic_ns": 425534939462000, "part_id": 255, "batch_id": 3763786410, "waiting": 6}
+{"event": "inspection_completed", "time_ns": 1794985417898346200, "monotonic_ns": 425534981471400, "batch_id": 3763786410, "part_id": 249, "job_id": 291, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985417995695800, "monotonic_ns": 425535078820200, "batch_id": 3763786410, "part_id": 250, "job_id": 292, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794985418006191300, "monotonic_ns": 425535089315600, "part_id": 256, "batch_id": 3763786410, "waiting": 5}
+{"event": "inspection_completed", "time_ns": 1794985418151211700, "monotonic_ns": 425535234334800, "batch_id": 3763786410, "part_id": 251, "job_id": 293, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985418156219100, "monotonic_ns": 425535239342200, "part_id": 257, "batch_id": 3763786410, "waiting": 6}
+{"event": "inspection_completed", "time_ns": 1794985418253382500, "monotonic_ns": 425535336504700, "batch_id": 3763786410, "part_id": 252, "job_id": 294, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985418306309900, "monotonic_ns": 425535389431800, "part_id": 258, "batch_id": 3763786410, "waiting": 5}
+{"event": "inspection_completed", "time_ns": 1794985418354263000, "monotonic_ns": 425535437384500, "batch_id": 3763786410, "part_id": 253, "job_id": 295, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985418456231900, "monotonic_ns": 425535539352500, "part_id": 259, "batch_id": 3763786410, "waiting": 5}
+{"event": "inspection_completed", "time_ns": 1794985418465548600, "monotonic_ns": 425535548669100, "batch_id": 3763786410, "part_id": 254, "job_id": 296, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794985418564164900, "monotonic_ns": 425535647284600, "batch_id": 3763786410, "part_id": 255, "job_id": 297, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985418606208100, "monotonic_ns": 425535689327500, "part_id": 260, "batch_id": 3763786410, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794985418665327500, "monotonic_ns": 425535748446400, "batch_id": 3763786410, "part_id": 256, "job_id": 298, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985418756195200, "monotonic_ns": 425535839313300, "part_id": 261, "batch_id": 3763786410, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794985418773984400, "monotonic_ns": 425535857102400, "batch_id": 3763786410, "part_id": 257, "job_id": 299, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985418884941200, "monotonic_ns": 425535968058300, "batch_id": 3763786410, "part_id": 258, "job_id": 300, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794985418906189900, "monotonic_ns": 425535989306800, "part_id": 262, "batch_id": 3763786410, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794985419014202000, "monotonic_ns": 425536097318000, "batch_id": 3763786410, "part_id": 259, "job_id": 301, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985419056138200, "monotonic_ns": 425536139253800, "part_id": 263, "batch_id": 3763786410, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794985419121665900, "monotonic_ns": 425536204781000, "batch_id": 3763786410, "part_id": 260, "job_id": 302, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985419206355600, "monotonic_ns": 425536289470100, "part_id": 264, "batch_id": 3763786410, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794985419242477900, "monotonic_ns": 425536325592000, "batch_id": 3763786410, "part_id": 261, "job_id": 303, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985419339076500, "monotonic_ns": 425536422189800, "batch_id": 3763786410, "part_id": 262, "job_id": 304, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794985419356187200, "monotonic_ns": 425536439300300, "part_id": 265, "batch_id": 3763786410, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794985419446858300, "monotonic_ns": 425536529970700, "batch_id": 3763786410, "part_id": 263, "job_id": 305, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985419506203700, "monotonic_ns": 425536589315700, "part_id": 266, "batch_id": 3763786410, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794985419575444400, "monotonic_ns": 425536658555600, "batch_id": 3763786410, "part_id": 264, "job_id": 306, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985419656181400, "monotonic_ns": 425536739292100, "part_id": 267, "batch_id": 3763786410, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794985419673165200, "monotonic_ns": 425536756275800, "batch_id": 3763786410, "part_id": 265, "job_id": 307, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985419788168900, "monotonic_ns": 425536871278600, "batch_id": 3763786410, "part_id": 266, "job_id": 308, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794985419806187800, "monotonic_ns": 425536889297200, "part_id": 268, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985419901267100, "monotonic_ns": 425536984375800, "batch_id": 3763786410, "part_id": 267, "job_id": 309, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985419956344900, "monotonic_ns": 425537039453200, "part_id": 269, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985420013020400, "monotonic_ns": 425537096128200, "batch_id": 3763786410, "part_id": 268, "job_id": 310, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985420106201100, "monotonic_ns": 425537189308100, "part_id": 270, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985420111657800, "monotonic_ns": 425537194764800, "batch_id": 3763786410, "part_id": 269, "job_id": 311, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985420202449300, "monotonic_ns": 425537285555400, "batch_id": 3763786410, "part_id": 270, "job_id": 312, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794985420256147200, "monotonic_ns": 425537339252900, "part_id": 271, "batch_id": 3763786410, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794985420406425200, "monotonic_ns": 425537489529600, "part_id": 272, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985420447485700, "monotonic_ns": 425537530589900, "batch_id": 3763786410, "part_id": 271, "job_id": 313, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985420556215200, "monotonic_ns": 425537639318500, "part_id": 273, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985420569467900, "monotonic_ns": 425537652571100, "batch_id": 3763786410, "part_id": 272, "job_id": 314, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985420683902400, "monotonic_ns": 425537767004500, "batch_id": 3763786410, "part_id": 273, "job_id": 315, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985420706175100, "monotonic_ns": 425537789277000, "part_id": 274, "batch_id": 3763786410, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794985420856174600, "monotonic_ns": 425537939275300, "part_id": 275, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985420921458900, "monotonic_ns": 425538004559100, "batch_id": 3763786410, "part_id": 274, "job_id": 316, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794985421006221500, "monotonic_ns": 425538089321000, "part_id": 276, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985421022172400, "monotonic_ns": 425538105271700, "batch_id": 3763786410, "part_id": 275, "job_id": 317, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794985421132277100, "monotonic_ns": 425538215375600, "batch_id": 3763786410, "part_id": 276, "job_id": 318, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985421156203100, "monotonic_ns": 425538239301300, "part_id": 277, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985421266557600, "monotonic_ns": 425538349654900, "batch_id": 3763786410, "part_id": 277, "job_id": 319, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794985421306138800, "monotonic_ns": 425538389235800, "part_id": 278, "batch_id": 3763786410, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794985421456161500, "monotonic_ns": 425538539257200, "part_id": 279, "batch_id": 3763786410, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794985421513308600, "monotonic_ns": 425538596403800, "batch_id": 3763786410, "part_id": 278, "job_id": 320, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794985421635005600, "monotonic_ns": 425538718099900, "batch_id": 3763786410, "part_id": 279, "job_id": 321, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794985421635067200, "monotonic_ns": 425538718161700, "batch_id": 3763786410, "target": 45, "accepted": 34, "rejected": 11}
+{"event": "fault", "time_ns": 1794986414482530300, "monotonic_ns": 426531557853000, "reason": "Inspector status is stale", "batch_id": 3763786410}
+{"event": "connected", "time_ns": 1794986697386715400, "monotonic_ns": 426814459875700, "serial_port": "COM7", "host": "192.168.100.39", "port": 9000}
+{"event": "connected", "time_ns": 1794986702892965100, "monotonic_ns": 426819966085200, "serial_port": "COM7", "host": "192.168.100.39", "port": 9000}
+{"event": "command_delivery", "time_ns": 1794986867669412800, "monotonic_ns": 426984741329500, "cmd_id": 324, "action": "stop"}
+{"event": "command_acceptance", "time_ns": 1794986867669452600, "monotonic_ns": 426984741369200, "cmd_id": 324, "action": "stop"}
+{"event": "command_completion", "time_ns": 1794986867839354800, "monotonic_ns": 426984911270400, "cmd_id": 324, "action": "stop", "phase": "completion", "state": "Idle"}
+{"event": "fault", "time_ns": 1794986909715647700, "monotonic_ns": 427026787258100, "reason": "ClearCommError failed (PermissionError(13, 'Access is denied.', None, 5))", "batch_id": 0}
+{"event": "connected", "time_ns": 1794987130317612800, "monotonic_ns": 427247387612200, "serial_port": "COM3", "host": "192.168.100.39", "port": 9000}
+{"event": "fault", "time_ns": 1794987173132606200, "monotonic_ns": 427290202293600, "reason": "Inspector status is stale", "batch_id": 0}
+{"event": "connected", "time_ns": 1794987198085318700, "monotonic_ns": 427315154823800, "serial_port": "COM3", "host": "192.168.100.39", "port": 9000}
+{"event": "command_delivery", "time_ns": 1794987237165979000, "monotonic_ns": 427354235198500, "cmd_id": 327, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794987237166046700, "monotonic_ns": 427354235266000, "cmd_id": 327, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794987237263650600, "monotonic_ns": 427354332869300, "cmd_id": 327, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794987241202932000, "monotonic_ns": 427358272122200, "cmd_id": 328, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794987241202994100, "monotonic_ns": 427358272184000, "cmd_id": 328, "action": "start"}
+{"event": "command_completion", "time_ns": 1794987241223085500, "monotonic_ns": 427358292275500, "cmd_id": 328, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794987241527473400, "monotonic_ns": 427358596661000, "part_id": 1, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987241787879400, "monotonic_ns": 427358857065000, "batch_id": 4191637809, "part_id": 1, "job_id": 329, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987241827452900, "monotonic_ns": 427358896638200, "part_id": 2, "batch_id": 4191637809, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987242127359100, "monotonic_ns": 427359196542100, "part_id": 3, "batch_id": 4191637809, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987242427350400, "monotonic_ns": 427359496531200, "part_id": 4, "batch_id": 4191637809, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987242725114100, "monotonic_ns": 427359794292900, "batch_id": 4191637809, "part_id": 2, "job_id": 330, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987242727409700, "monotonic_ns": 427359796588400, "part_id": 5, "batch_id": 4191637809, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987242908573100, "monotonic_ns": 427359977750500, "batch_id": 4191637809, "part_id": 3, "job_id": 331, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987243027369900, "monotonic_ns": 427360096546500, "part_id": 6, "batch_id": 4191637809, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987243107985300, "monotonic_ns": 427360177161300, "batch_id": 4191637809, "part_id": 4, "job_id": 332, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987243327367900, "monotonic_ns": 427360396542200, "part_id": 7, "batch_id": 4191637809, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987243328229200, "monotonic_ns": 427360397403500, "batch_id": 4191637809, "part_id": 5, "job_id": 333, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987243545109200, "monotonic_ns": 427360614281900, "batch_id": 4191637809, "part_id": 6, "job_id": 334, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987243627325900, "monotonic_ns": 427360696498100, "part_id": 8, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987243741526400, "monotonic_ns": 427360810697700, "batch_id": 4191637809, "part_id": 7, "job_id": 335, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987243927393600, "monotonic_ns": 427360996563600, "part_id": 9, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987243943757500, "monotonic_ns": 427361012927300, "batch_id": 4191637809, "part_id": 8, "job_id": 336, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794987244139069400, "monotonic_ns": 427361208237700, "batch_id": 4191637809, "part_id": 9, "job_id": 337, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987244227268500, "monotonic_ns": 427361296436300, "part_id": 10, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987244471574700, "monotonic_ns": 427361540740700, "batch_id": 4191637809, "part_id": 10, "job_id": 338, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987244527263600, "monotonic_ns": 427361596429200, "part_id": 11, "batch_id": 4191637809, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987244827410700, "monotonic_ns": 427361896574100, "part_id": 12, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987244851863000, "monotonic_ns": 427361921026200, "batch_id": 4191637809, "part_id": 11, "job_id": 339, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987245094112000, "monotonic_ns": 427362163273400, "batch_id": 4191637809, "part_id": 12, "job_id": 340, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987245127402600, "monotonic_ns": 427362196563800, "part_id": 13, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987245423125500, "monotonic_ns": 427362492284500, "batch_id": 4191637809, "part_id": 13, "job_id": 341, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987245427283700, "monotonic_ns": 427362496442700, "part_id": 14, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987245621994100, "monotonic_ns": 427362691151700, "batch_id": 4191637809, "part_id": 14, "job_id": 342, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987245727492700, "monotonic_ns": 427362796649500, "part_id": 15, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987245948774100, "monotonic_ns": 427363017929300, "batch_id": 4191637809, "part_id": 15, "job_id": 343, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987246027274300, "monotonic_ns": 427363096429000, "part_id": 16, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987246288241800, "monotonic_ns": 427363357394400, "batch_id": 4191637809, "part_id": 16, "job_id": 344, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987246327240400, "monotonic_ns": 427363396392800, "part_id": 17, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987246617746500, "monotonic_ns": 427363686896800, "batch_id": 4191637809, "part_id": 17, "job_id": 345, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987246627238500, "monotonic_ns": 427363696388700, "part_id": 18, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987246818839900, "monotonic_ns": 427363887988800, "batch_id": 4191637809, "part_id": 18, "job_id": 346, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987246927508500, "monotonic_ns": 427363996656700, "part_id": 19, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987247146813900, "monotonic_ns": 427364215960500, "batch_id": 4191637809, "part_id": 19, "job_id": 347, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987247227308400, "monotonic_ns": 427364296454200, "part_id": 20, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987247469470300, "monotonic_ns": 427364538614400, "batch_id": 4191637809, "part_id": 20, "job_id": 348, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987247527258300, "monotonic_ns": 427364596402000, "part_id": 21, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987247721778600, "monotonic_ns": 427364790920800, "batch_id": 4191637809, "part_id": 21, "job_id": 349, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987247827367300, "monotonic_ns": 427364896508800, "part_id": 22, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987248050894000, "monotonic_ns": 427365120033900, "batch_id": 4191637809, "part_id": 22, "job_id": 350, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987248127283600, "monotonic_ns": 427365196422900, "part_id": 23, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987248393788100, "monotonic_ns": 427365462925400, "batch_id": 4191637809, "part_id": 23, "job_id": 351, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987248427248700, "monotonic_ns": 427365496385700, "part_id": 24, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987248702544200, "monotonic_ns": 427365771679600, "batch_id": 4191637809, "part_id": 24, "job_id": 352, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987248727237500, "monotonic_ns": 427365796372500, "part_id": 25, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987248918178900, "monotonic_ns": 427365987312500, "batch_id": 4191637809, "part_id": 25, "job_id": 353, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987249027228800, "monotonic_ns": 427366096361600, "part_id": 26, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987249248835400, "monotonic_ns": 427366317966400, "batch_id": 4191637809, "part_id": 26, "job_id": 354, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987249327323500, "monotonic_ns": 427366396454100, "part_id": 27, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987249577559800, "monotonic_ns": 427366646688500, "batch_id": 4191637809, "part_id": 27, "job_id": 355, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987249627253500, "monotonic_ns": 427366696381900, "part_id": 28, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987249897942600, "monotonic_ns": 427366967068900, "batch_id": 4191637809, "part_id": 28, "job_id": 356, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987249927339400, "monotonic_ns": 427366996465600, "part_id": 29, "batch_id": 4191637809, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987250227166600, "monotonic_ns": 427367296290600, "part_id": 30, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987250228186800, "monotonic_ns": 427367297310700, "batch_id": 4191637809, "part_id": 29, "job_id": 357, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987250442329200, "monotonic_ns": 427367511451600, "batch_id": 4191637809, "part_id": 30, "job_id": 358, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987250527142500, "monotonic_ns": 427367596264300, "part_id": 31, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987250718097300, "monotonic_ns": 427367787217700, "batch_id": 4191637809, "part_id": 31, "job_id": 359, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987250827265500, "monotonic_ns": 427367896385100, "part_id": 32, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987251076932100, "monotonic_ns": 427368146049700, "batch_id": 4191637809, "part_id": 32, "job_id": 360, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987251127268400, "monotonic_ns": 427368196385700, "part_id": 33, "batch_id": 4191637809, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987251427185600, "monotonic_ns": 427368496300800, "part_id": 34, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987251427968300, "monotonic_ns": 427368497083400, "batch_id": 4191637809, "part_id": 33, "job_id": 361, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794987251629196700, "monotonic_ns": 427368698310400, "batch_id": 4191637809, "part_id": 34, "job_id": 362, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987251727190500, "monotonic_ns": 427368796303500, "part_id": 35, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987251960177500, "monotonic_ns": 427369029288800, "batch_id": 4191637809, "part_id": 35, "job_id": 363, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987252027144500, "monotonic_ns": 427369096255400, "part_id": 36, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987252297399900, "monotonic_ns": 427369366508800, "batch_id": 4191637809, "part_id": 36, "job_id": 364, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987252327136400, "monotonic_ns": 427369396245100, "part_id": 37, "batch_id": 4191637809, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987252627138500, "monotonic_ns": 427369696244900, "part_id": 38, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987252637669800, "monotonic_ns": 427369706776100, "batch_id": 4191637809, "part_id": 37, "job_id": 365, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987252837494900, "monotonic_ns": 427369906599600, "batch_id": 4191637809, "part_id": 38, "job_id": 366, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987252927287600, "monotonic_ns": 427369996391800, "part_id": 39, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987253168255900, "monotonic_ns": 427370237358400, "batch_id": 4191637809, "part_id": 39, "job_id": 367, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987253227134700, "monotonic_ns": 427370296236700, "part_id": 40, "batch_id": 4191637809, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987253527128400, "monotonic_ns": 427370596228300, "part_id": 41, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987253554216200, "monotonic_ns": 427370623315900, "batch_id": 4191637809, "part_id": 40, "job_id": 368, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987253762835700, "monotonic_ns": 427370831933800, "batch_id": 4191637809, "part_id": 41, "job_id": 369, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987253827187200, "monotonic_ns": 427370896284900, "part_id": 42, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987254108326200, "monotonic_ns": 427371177421800, "batch_id": 4191637809, "part_id": 42, "job_id": 370, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987254127205300, "monotonic_ns": 427371196300800, "part_id": 43, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987254317719000, "monotonic_ns": 427371386813100, "batch_id": 4191637809, "part_id": 43, "job_id": 371, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987254427072400, "monotonic_ns": 427371496165500, "part_id": 44, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987254647989400, "monotonic_ns": 427371717081200, "batch_id": 4191637809, "part_id": 44, "job_id": 372, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987254727093400, "monotonic_ns": 427371796184500, "part_id": 45, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987254978052100, "monotonic_ns": 427372047141400, "batch_id": 4191637809, "part_id": 45, "job_id": 373, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987255027113700, "monotonic_ns": 427372096202700, "part_id": 46, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987255297810500, "monotonic_ns": 427372366897400, "batch_id": 4191637809, "part_id": 46, "job_id": 374, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987255327130000, "monotonic_ns": 427372396216700, "part_id": 47, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987255617614500, "monotonic_ns": 427372686699100, "batch_id": 4191637809, "part_id": 47, "job_id": 375, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987255627089100, "monotonic_ns": 427372696173700, "part_id": 48, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987255821750500, "monotonic_ns": 427372890833700, "batch_id": 4191637809, "part_id": 48, "job_id": 376, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987255927146800, "monotonic_ns": 427372996229100, "part_id": 49, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987256148475400, "monotonic_ns": 427373217556000, "batch_id": 4191637809, "part_id": 49, "job_id": 377, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987256226988300, "monotonic_ns": 427373296068400, "part_id": 50, "batch_id": 4191637809, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987256474451500, "monotonic_ns": 427373543529800, "batch_id": 4191637809, "part_id": 50, "job_id": 378, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794987256474473600, "monotonic_ns": 427373543551900, "batch_id": 4191637809, "target": 50, "accepted": 40, "rejected": 10}
+{"event": "fault", "time_ns": 1794987361965551900, "monotonic_ns": 427479033861000, "reason": "Inspector status is stale", "batch_id": 4191637809}
+{"event": "command_delivery", "time_ns": 1794987374310764000, "monotonic_ns": 427491378982200, "cmd_id": 379, "action": "stop"}
+{"event": "command_acceptance", "time_ns": 1794987374310795800, "monotonic_ns": 427491379014000, "cmd_id": 379, "action": "stop"}
+{"event": "command_completion", "time_ns": 1794987375117455000, "monotonic_ns": 427492185667400, "cmd_id": 379, "action": "stop", "phase": "completion", "state": "Idle"}
+{"event": "connected", "time_ns": 1794987412061850200, "monotonic_ns": 427529129793200, "serial_port": "COM3", "host": "192.168.100.39", "port": 9000}
+{"event": "command_delivery", "time_ns": 1794987451566397000, "monotonic_ns": 427568634051300, "cmd_id": 381, "action": "configure"}
+{"event": "command_acceptance", "time_ns": 1794987451566435500, "monotonic_ns": 427568634089600, "cmd_id": 381, "action": "configure"}
+{"event": "command_completion", "time_ns": 1794987452770063800, "monotonic_ns": 427569837709800, "cmd_id": 381, "action": "configure", "phase": "completion", "state": "Idle"}
+{"event": "command_delivery", "time_ns": 1794987456980782200, "monotonic_ns": 427574048397100, "cmd_id": 382, "action": "start"}
+{"event": "command_acceptance", "time_ns": 1794987456980816400, "monotonic_ns": 427574048431000, "cmd_id": 382, "action": "start"}
+{"event": "command_completion", "time_ns": 1794987456998796600, "monotonic_ns": 427574066411900, "cmd_id": 382, "action": "start", "phase": "completion", "state": "Running"}
+{"event": "part_queued", "time_ns": 1794987457252968800, "monotonic_ns": 427574320581300, "part_id": 51, "batch_id": 3319905393, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987457502974400, "monotonic_ns": 427574570585200, "part_id": 52, "batch_id": 3319905393, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987457580154100, "monotonic_ns": 427574647764300, "batch_id": 3319905393, "part_id": 51, "job_id": 383, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987457753040900, "monotonic_ns": 427574820649800, "part_id": 53, "batch_id": 3319905393, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987457894104900, "monotonic_ns": 427574961712800, "batch_id": 3319905393, "part_id": 52, "job_id": 384, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987458003283300, "monotonic_ns": 427575070890600, "part_id": 54, "batch_id": 3319905393, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987458249423300, "monotonic_ns": 427575317028600, "batch_id": 3319905393, "part_id": 53, "job_id": 385, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987458252899800, "monotonic_ns": 427575320505000, "part_id": 55, "batch_id": 3319905393, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987458460289700, "monotonic_ns": 427575527893500, "batch_id": 3319905393, "part_id": 54, "job_id": 386, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987458502924200, "monotonic_ns": 427575570527700, "part_id": 56, "batch_id": 3319905393, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987458753190100, "monotonic_ns": 427575820791700, "part_id": 57, "batch_id": 3319905393, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987458776662000, "monotonic_ns": 427575844263400, "batch_id": 3319905393, "part_id": 55, "job_id": 387, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987458985069900, "monotonic_ns": 427576052670100, "batch_id": 3319905393, "part_id": 56, "job_id": 388, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987459003183900, "monotonic_ns": 427576070783900, "part_id": 58, "batch_id": 3319905393, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987459196297600, "monotonic_ns": 427576263896000, "batch_id": 3319905393, "part_id": 57, "job_id": 389, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987459252876400, "monotonic_ns": 427576320474300, "part_id": 59, "batch_id": 3319905393, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987459501584900, "monotonic_ns": 427576569181100, "batch_id": 3319905393, "part_id": 58, "job_id": 390, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987459503018300, "monotonic_ns": 427576570614500, "part_id": 60, "batch_id": 3319905393, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987459734243800, "monotonic_ns": 427576801838200, "batch_id": 3319905393, "part_id": 59, "job_id": 391, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987459753117400, "monotonic_ns": 427576820711800, "part_id": 61, "batch_id": 3319905393, "waiting": 1}
+{"event": "inspection_completed", "time_ns": 1794987459987942700, "monotonic_ns": 427577055535300, "batch_id": 3319905393, "part_id": 60, "job_id": 392, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987460002826400, "monotonic_ns": 427577070418900, "part_id": 62, "batch_id": 3319905393, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987460252861900, "monotonic_ns": 427577320452600, "part_id": 63, "batch_id": 3319905393, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987460329125300, "monotonic_ns": 427577396715400, "batch_id": 3319905393, "part_id": 61, "job_id": 393, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987460502833100, "monotonic_ns": 427577570422000, "part_id": 64, "batch_id": 3319905393, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987460637633200, "monotonic_ns": 427577705221100, "batch_id": 3319905393, "part_id": 62, "job_id": 394, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987460752865100, "monotonic_ns": 427577820452200, "part_id": 65, "batch_id": 3319905393, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987460837127500, "monotonic_ns": 427577904713800, "batch_id": 3319905393, "part_id": 63, "job_id": 395, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794987460990482200, "monotonic_ns": 427578058067500, "batch_id": 3319905393, "part_id": 64, "job_id": 396, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987461003159300, "monotonic_ns": 427578070744500, "part_id": 66, "batch_id": 3319905393, "waiting": 1}
+{"event": "part_queued", "time_ns": 1794987461252938000, "monotonic_ns": 427578320521600, "part_id": 67, "batch_id": 3319905393, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987461315642200, "monotonic_ns": 427578383225200, "batch_id": 3319905393, "part_id": 65, "job_id": 397, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987461502818600, "monotonic_ns": 427578570400200, "part_id": 68, "batch_id": 3319905393, "waiting": 2}
+{"event": "inspection_completed", "time_ns": 1794987461706267600, "monotonic_ns": 427578773847700, "batch_id": 3319905393, "part_id": 66, "job_id": 398, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987461753014800, "monotonic_ns": 427578820594700, "part_id": 69, "batch_id": 3319905393, "waiting": 2}
+{"event": "part_queued", "time_ns": 1794987462002885200, "monotonic_ns": 427579070463000, "part_id": 70, "batch_id": 3319905393, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794987462213542200, "monotonic_ns": 427579281118600, "batch_id": 3319905393, "part_id": 67, "job_id": 399, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987462252866500, "monotonic_ns": 427579320442500, "part_id": 71, "batch_id": 3319905393, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794987462429784100, "monotonic_ns": 427579497358900, "batch_id": 3319905393, "part_id": 68, "job_id": 400, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987462503045100, "monotonic_ns": 427579570619400, "part_id": 72, "batch_id": 3319905393, "waiting": 3}
+{"event": "inspection_completed", "time_ns": 1794987462653615800, "monotonic_ns": 427579721189000, "batch_id": 3319905393, "part_id": 69, "job_id": 401, "verdict": "FAIL"}
+{"event": "part_queued", "time_ns": 1794987462752951400, "monotonic_ns": 427579820523900, "part_id": 73, "batch_id": 3319905393, "waiting": 3}
+{"event": "part_queued", "time_ns": 1794987463003002900, "monotonic_ns": 427580070573500, "part_id": 74, "batch_id": 3319905393, "waiting": 4}
+{"event": "inspection_completed", "time_ns": 1794987463031828200, "monotonic_ns": 427580099398600, "batch_id": 3319905393, "part_id": 70, "job_id": 402, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987463252888600, "monotonic_ns": 427580320457400, "part_id": 75, "batch_id": 3319905393, "waiting": 4}
+{"event": "part_queued", "time_ns": 1794987463502885100, "monotonic_ns": 427580570452100, "part_id": 76, "batch_id": 3319905393, "waiting": 5}
+{"event": "inspection_completed", "time_ns": 1794987463560226600, "monotonic_ns": 427580627793300, "batch_id": 3319905393, "part_id": 71, "job_id": 403, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987463752885000, "monotonic_ns": 427580820450200, "part_id": 77, "batch_id": 3319905393, "waiting": 5}
+{"event": "part_queued", "time_ns": 1794987464003009300, "monotonic_ns": 427581070572500, "part_id": 78, "batch_id": 3319905393, "waiting": 6}
+{"event": "inspection_completed", "time_ns": 1794987464048777300, "monotonic_ns": 427581116340300, "batch_id": 3319905393, "part_id": 72, "job_id": 404, "verdict": "PASS"}
+{"event": "part_queued", "time_ns": 1794987464252777100, "monotonic_ns": 427581320338600, "part_id": 79, "batch_id": 3319905393, "waiting": 6}
+{"event": "part_queued", "time_ns": 1794987464502715600, "monotonic_ns": 427581570275300, "part_id": 80, "batch_id": 3319905393, "waiting": 7}
+{"event": "inspection_completed", "time_ns": 1794987464511418000, "monotonic_ns": 427581578977600, "batch_id": 3319905393, "part_id": 73, "job_id": 405, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987464910192500, "monotonic_ns": 427581977749200, "batch_id": 3319905393, "part_id": 74, "job_id": 406, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987465237349000, "monotonic_ns": 427582304903300, "batch_id": 3319905393, "part_id": 75, "job_id": 407, "verdict": "FAIL"}
+{"event": "inspection_completed", "time_ns": 1794987465685229800, "monotonic_ns": 427582752780800, "batch_id": 3319905393, "part_id": 76, "job_id": 408, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987465986008200, "monotonic_ns": 427583053557100, "batch_id": 3319905393, "part_id": 77, "job_id": 409, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987466221883700, "monotonic_ns": 427583289430800, "batch_id": 3319905393, "part_id": 78, "job_id": 410, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987466582620900, "monotonic_ns": 427583650165600, "batch_id": 3319905393, "part_id": 79, "job_id": 411, "verdict": "PASS"}
+{"event": "inspection_completed", "time_ns": 1794987467097482500, "monotonic_ns": 427584165023100, "batch_id": 3319905393, "part_id": 80, "job_id": 412, "verdict": "PASS"}
+{"event": "batch_completed", "time_ns": 1794987467097502100, "monotonic_ns": 427584165042700, "batch_id": 3319905393, "target": 30, "accepted": 25, "rejected": 5}
+{"event": "fault", "time_ns": 1794987725506670600, "monotonic_ns": 427842572338800, "reason": "Inspector status is stale", "batch_id": 3319905393}

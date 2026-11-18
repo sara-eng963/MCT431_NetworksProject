@@ -1,0 +1,8 @@
+{
+  "serial_unique_requests": 62,
+  "serial_unique_completed_jobs": 61,
+  "all_serial_verdicts_have_matching_request": true,
+  "pcap_packet_bytes_unchanged": true,
+  "packet_matched_jobs": 1,
+  "live_acceptance_cases_passed": 6
+}

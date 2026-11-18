@@ -1,0 +1,46 @@
+frame_number,direction,type,identifier,part_id,verdict
+2,B → gateway,Delivery,192,0,
+3,B → gateway,Acceptance,192,0,
+4,B → gateway,Completion,192,0,
+38,B → gateway,Delivery,193,0,
+43,B → gateway,Acceptance,196,169,
+45,gateway → B,Inspection request,197,170,
+46,gateway → B,Inspection request,198,171,
+69,B → gateway,Acceptance,199,0,
+71,B → gateway,Delivery,203,0,
+74,B → gateway,Delivery,205,0,
+75,B → gateway,Acceptance,205,175,
+77,B → gateway,Acceptance,207,177,
+80,B → gateway,Completion,207,177,PASS
+82,B → gateway,Completion,208,178,PASS
+83,B → gateway,Completion,210,180,FAIL
+84,B → gateway,Completion,211,181,PASS
+86,B → gateway,Delivery,212,0,
+87,B → gateway,Acceptance,212,182,
+89,gateway → B,Inspection request,218,186,
+90,gateway → B,Inspection request,223,191,
+91,B → gateway,Completion,227,195,PASS
+93,B → gateway,Delivery,230,0,
+94,B → gateway,Acceptance,230,196,
+97,gateway → B,Inspection request,231,197,
+98,B → gateway,Acceptance,231,197,
+101,gateway → B,Inspection request,235,199,
+102,B → gateway,Completion,235,199,PASS
+104,B → gateway,Completion,237,201,PASS
+105,gateway → B,Inspection request,238,202,
+108,gateway → B,Inspection request,241,205,
+109,gateway → B,Inspection request,243,207,
+111,B → gateway,Acceptance,245,209,
+112,gateway → B,Inspection request,246,210,
+113,gateway → B,Inspection request,248,212,
+114,B → gateway,Delivery,248,0,
+115,B → gateway,Acceptance,248,212,
+119,B → gateway,Completion,249,213,PASS
+120,B → gateway,Acceptance,251,215,
+127,B → gateway,Acceptance,257,0,
+131,B → gateway,Completion,260,0,
+132,gateway → B,Configure,261,,
+133,gateway → B,Inspection request,265,225,
+134,B → gateway,Acceptance,268,228,
+136,gateway → B,Inspection request,269,229,
+137,B → gateway,Acceptance,269,229,

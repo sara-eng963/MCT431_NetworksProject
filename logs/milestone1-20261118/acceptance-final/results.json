@@ -1,0 +1,48 @@
+{
+  "results": [
+    {
+      "case": "inspection_faster",
+      "passed": true,
+      "batch_id": 2598739152,
+      "produced": 12,
+      "accepted": 10,
+      "rejected": 2
+    },
+    {
+      "case": "production_faster_with_room",
+      "passed": true,
+      "batch_id": 2456410548,
+      "produced": 12,
+      "accepted": 8,
+      "rejected": 4
+    },
+    {
+      "case": "pause_resume",
+      "passed": true,
+      "batch_id": 3740844308,
+      "produced": 20,
+      "accepted": 17,
+      "rejected": 3
+    },
+    {
+      "case": "stop_aborts",
+      "passed": true,
+      "batch_id": 3196139493
+    },
+    {
+      "case": "queue_full_fault",
+      "passed": true,
+      "batch_id": 1198768038,
+      "fault": "Inspection queue full; documented policy is Fault"
+    },
+    {
+      "case": "recovered_batch_new_rule",
+      "passed": true,
+      "batch_id": 4180833419,
+      "produced": 12,
+      "accepted": 9,
+      "rejected": 3
+    }
+  ],
+  "websocket_errors": []
+}

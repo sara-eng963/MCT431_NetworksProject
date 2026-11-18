@@ -1,0 +1,31 @@
+{
+  "passed": true,
+  "javascript_errors": [],
+  "websocket_urls": [
+    "ws://127.0.0.1:8000/ws/status"
+  ],
+  "operator_commands": [
+    {
+      "cmd_id": 194,
+      "action": "configure",
+      "values": {
+        "target": 3,
+        "cycle_ms": 800,
+        "inspection_ms": 200,
+        "n": 2,
+        "k": 1,
+        "capacity": 8
+      }
+    },
+    {
+      "cmd_id": 195,
+      "action": "start",
+      "values": {}
+    }
+  ],
+  "outcome": "Batch 943025621 \u00b7 Completed",
+  "produced": "3",
+  "accepted": "1",
+  "rejected": "2",
+  "horizontal_overflow": false
+}

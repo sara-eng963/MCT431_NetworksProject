@@ -1,0 +1,33 @@
+frame_number,direction,type,identifier,part_id,verdict
+31,gateway → B,Reset/abort,50,,
+52,B → gateway,Delivery,50,0,
+53,B → gateway,Acceptance,50,0,
+54,B → gateway,Completion,50,0,
+101,gateway → B,Inspection request,55,46,
+131,B → gateway,Acceptance,56,47,
+151,B → gateway,Delivery,57,0,
+161,B → gateway,Acceptance,57,48,
+191,B → gateway,Completion,60,51,PASS
+211,B → gateway,Acceptance,62,53,
+231,B → gateway,Completion,62,53,PASS
+241,gateway → B,Inspection request,63,54,
+251,gateway → B,Inspection request,67,56,
+261,gateway → B,Inspection request,68,57,
+271,B → gateway,Completion,70,59,FAIL
+281,B → gateway,Completion,71,60,PASS
+321,B → gateway,Completion,73,62,FAIL
+331,B → gateway,Completion,74,63,PASS
+341,B → gateway,Acceptance,75,64,
+371,gateway → B,Configure,79,,
+381,B → gateway,Completion,79,0,
+391,gateway → B,Inspection request,82,69,
+411,B → gateway,Completion,85,70,PASS
+431,B → gateway,Acceptance,89,74,
+461,B → gateway,Delivery,95,0,
+481,gateway → B,Inspection request,97,82,
+501,B → gateway,Completion,101,86,PASS
+511,B → gateway,Completion,108,0,
+571,gateway → B,Reset/abort,111,,
+581,B → gateway,Delivery,115,0,
+591,B → gateway,Acceptance,115,96,
+611,gateway → B,Inspection request,115,96,

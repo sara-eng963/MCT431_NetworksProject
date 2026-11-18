@@ -1,0 +1,164 @@
+{"event": "tcp_rx", "time_ns": 1794987130292716500, "monotonic_ns": 427247362716000, "payload_hex": "14006fbea359000000000000000000000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987130292796200, "monotonic_ns": 427247362795600, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 0, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987130293208100, "monotonic_ns": 427247363207600, "payload_hex": "156fbea35900000145"}
+{"event": "tcp_tx", "time_ns": 1794987130293308400, "monotonic_ns": 427247363307800, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987130317469200, "monotonic_ns": 427247387468600, "payload_hex": "126fbea359000001450100000000000000000000"}
+{"event": "tcp_rx", "time_ns": 1794987130317494900, "monotonic_ns": 427247387494100, "payload_hex": "126fbea359000001450200000000000000000000"}
+{"event": "tcp_rx", "time_ns": 1794987130317506400, "monotonic_ns": 427247387505600, "payload_hex": "126fbea359000001450300000000000000000000"}
+{"event": "tcp_rx", "time_ns": 1794987130317517200, "monotonic_ns": 427247387516400, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987130317528700, "monotonic_ns": 427247387527900, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "delivery", "time_ns": 1794987130317541900, "monotonic_ns": 427247387541100, "identifier": 325, "result": 0, "verdict": 0, "part_id": 0}
+{"event": "acceptance", "time_ns": 1794987130317552000, "monotonic_ns": 427247387551100, "identifier": 325, "result": 0, "verdict": 0, "part_id": 0}
+{"event": "completion", "time_ns": 1794987130317561200, "monotonic_ns": 427247387560400, "identifier": 325, "result": 0, "verdict": 0, "part_id": 0}
+{"event": "tcp_tx", "time_ns": 1794987130909667800, "monotonic_ns": 427247979662800, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987131470450200, "monotonic_ns": 427248540441600, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987131492379600, "monotonic_ns": 427248562370800, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987131492426900, "monotonic_ns": 427248562417600, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987132079313400, "monotonic_ns": 427249149300400, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987132301623800, "monotonic_ns": 427249371609300, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987132301676800, "monotonic_ns": 427249371661600, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987132613627100, "monotonic_ns": 427249683610400, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987133172410300, "monotonic_ns": 427250242389100, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987133312757800, "monotonic_ns": 427250382735400, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987133312838300, "monotonic_ns": 427250382816100, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987133765610500, "monotonic_ns": 427250835584900, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987134329820900, "monotonic_ns": 427251399791200, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987134535996600, "monotonic_ns": 427251605965900, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987134536078400, "monotonic_ns": 427251606046900, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987134845991900, "monotonic_ns": 427251915958700, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987135320803800, "monotonic_ns": 427252390767100, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987135320871900, "monotonic_ns": 427252390834700, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987135483689500, "monotonic_ns": 427252553651700, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987136045463200, "monotonic_ns": 427253115421300, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987136335054800, "monotonic_ns": 427253405010700, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987136335121000, "monotonic_ns": 427253405076300, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987136637753900, "monotonic_ns": 427253707707600, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987137198800700, "monotonic_ns": 427254268750300, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987137356855700, "monotonic_ns": 427254426804100, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987137356910800, "monotonic_ns": 427254426858600, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987137807848800, "monotonic_ns": 427254877793700, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987138369871700, "monotonic_ns": 427255439812900, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987138370039100, "monotonic_ns": 427255439979900, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987138370096500, "monotonic_ns": 427255440037100, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987138961751800, "monotonic_ns": 427256031688700, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987139382447800, "monotonic_ns": 427256452381300, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987139382529000, "monotonic_ns": 427256452462200, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987139554088700, "monotonic_ns": 427256624021200, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987140109610600, "monotonic_ns": 427257179539000, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987140388829900, "monotonic_ns": 427257458755900, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987140388889800, "monotonic_ns": 427257458815500, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987140702378000, "monotonic_ns": 427257772302100, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987141265052900, "monotonic_ns": 427258334973000, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987141368830200, "monotonic_ns": 427258438749400, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987141368879500, "monotonic_ns": 427258438798200, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987141809182000, "monotonic_ns": 427258879098100, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987142373856800, "monotonic_ns": 427259443768400, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987142378621900, "monotonic_ns": 427259448533400, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987142378661000, "monotonic_ns": 427259448572100, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987142970240300, "monotonic_ns": 427260040147700, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987143398596700, "monotonic_ns": 427260468501200, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987143398676400, "monotonic_ns": 427260468580200, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987143563021200, "monotonic_ns": 427260632924600, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987144125776300, "monotonic_ns": 427261195675400, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987144426393100, "monotonic_ns": 427261496290100, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987144426473900, "monotonic_ns": 427261496370300, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987144732964200, "monotonic_ns": 427261802858900, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987145294642500, "monotonic_ns": 427262364533200, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987145433082200, "monotonic_ns": 427262502971700, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987145433198400, "monotonic_ns": 427262503087400, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987145882383200, "monotonic_ns": 427262952269700, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987146443549300, "monotonic_ns": 427263513431600, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987146445188900, "monotonic_ns": 427263515070800, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987146445302000, "monotonic_ns": 427263515184300, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987147035047200, "monotonic_ns": 427264104924900, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987147454069800, "monotonic_ns": 427264523945000, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987147454171900, "monotonic_ns": 427264524046200, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987147625654700, "monotonic_ns": 427264695528300, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987148187243700, "monotonic_ns": 427265257113400, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987148467221900, "monotonic_ns": 427265537089000, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987148467377900, "monotonic_ns": 427265537245000, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987148781005400, "monotonic_ns": 427265850870600, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987149339304100, "monotonic_ns": 427266409165200, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987149479935500, "monotonic_ns": 427266549795200, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987149480008000, "monotonic_ns": 427266549867500, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987149932767700, "monotonic_ns": 427267002624400, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987150458537000, "monotonic_ns": 427267528389800, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987150458606600, "monotonic_ns": 427267528458800, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987150478861200, "monotonic_ns": 427267548714200, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987151041659300, "monotonic_ns": 427268111508400, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987151483157500, "monotonic_ns": 427268553002600, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987151483207200, "monotonic_ns": 427268553051800, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987151643330700, "monotonic_ns": 427268713175500, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987152202744400, "monotonic_ns": 427269272584700, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987152494689900, "monotonic_ns": 427269564527800, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987152494746100, "monotonic_ns": 427269564583500, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987152798047200, "monotonic_ns": 427269867883200, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987153356662900, "monotonic_ns": 427270426494700, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987153501044100, "monotonic_ns": 427270570874600, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987153501116000, "monotonic_ns": 427270570946100, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987153951733900, "monotonic_ns": 427271021561300, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987154509596400, "monotonic_ns": 427271579419700, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987154735701400, "monotonic_ns": 427271805523300, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987154735787000, "monotonic_ns": 427271805608100, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987155037698400, "monotonic_ns": 427272107517700, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987155498269000, "monotonic_ns": 427272568085100, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987155498349200, "monotonic_ns": 427272568164800, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987155658546100, "monotonic_ns": 427272728361000, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987156219951200, "monotonic_ns": 427273289762400, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987156507900000, "monotonic_ns": 427273577708700, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987156507973000, "monotonic_ns": 427273577781000, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987156812799200, "monotonic_ns": 427273882606000, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987157371283200, "monotonic_ns": 427274441085700, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987157528168100, "monotonic_ns": 427274597969400, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987157528247400, "monotonic_ns": 427274598048100, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987157980752200, "monotonic_ns": 427275050550100, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987158540129000, "monotonic_ns": 427275609923000, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987158542092000, "monotonic_ns": 427275611885700, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987158542158900, "monotonic_ns": 427275611952200, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987159129493100, "monotonic_ns": 427276199282700, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987159550869500, "monotonic_ns": 427276620656000, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987159550956700, "monotonic_ns": 427276620742600, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987159723809700, "monotonic_ns": 427276793595000, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987160283840600, "monotonic_ns": 427277353621900, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987160563533300, "monotonic_ns": 427277633312000, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987160563649000, "monotonic_ns": 427277633427700, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987160875654800, "monotonic_ns": 427277945431400, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987161432969200, "monotonic_ns": 427278502742100, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987161570721700, "monotonic_ns": 427278640493200, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987161570788800, "monotonic_ns": 427278640559900, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987162019719000, "monotonic_ns": 427279089487500, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987162581090900, "monotonic_ns": 427279650855200, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987162581179600, "monotonic_ns": 427279650943200, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987162581194700, "monotonic_ns": 427279650958300, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987163173032200, "monotonic_ns": 427280242792500, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987163558111800, "monotonic_ns": 427280627869000, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987163558174100, "monotonic_ns": 427280627930700, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987163719412500, "monotonic_ns": 427280789168400, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987164281146600, "monotonic_ns": 427281350898600, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987164561170700, "monotonic_ns": 427281630920500, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987164561306000, "monotonic_ns": 427281631055500, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987164875262500, "monotonic_ns": 427281945010100, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987165436403700, "monotonic_ns": 427282506147000, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987165574883100, "monotonic_ns": 427282644625300, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987165575105600, "monotonic_ns": 427282644847500, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987166029082300, "monotonic_ns": 427283098821300, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987166590778800, "monotonic_ns": 427283660513800, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987166639517500, "monotonic_ns": 427283709252200, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987166639572400, "monotonic_ns": 427283709306500, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987167227478900, "monotonic_ns": 427284297209200, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987167690861000, "monotonic_ns": 427284760588000, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987167690908600, "monotonic_ns": 427284760634900, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987167856892800, "monotonic_ns": 427284926618400, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987168420084600, "monotonic_ns": 427285489806100, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987168601885800, "monotonic_ns": 427285671606300, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987168601999000, "monotonic_ns": 427285671719000, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987169044155800, "monotonic_ns": 427286113872700, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987169600069500, "monotonic_ns": 427286669782500, "payload_hex": "136fbea359"}
+{"event": "tcp_rx", "time_ns": 1794987169632245000, "monotonic_ns": 427286701957600, "payload_hex": "14006fbea359000000000000014500000000000000000000000000000000"}
+{"event": "inspector_status", "time_ns": 1794987169632303600, "monotonic_ns": 427286702015800, "state": 0, "boot_id": 1874764633, "batch_id": 0, "last_id": 325, "inspection_ms": 0, "n": 0, "k": 0}
+{"event": "tcp_tx", "time_ns": 1794987170223222700, "monotonic_ns": 427287292931100, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987170785011400, "monotonic_ns": 427287854716000, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987171343911700, "monotonic_ns": 427288413612000, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987171905344900, "monotonic_ns": 427288975041000, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987172463298300, "monotonic_ns": 427289532990600, "payload_hex": "136fbea359"}
+{"event": "tcp_tx", "time_ns": 1794987173023773100, "monotonic_ns": 427290093461000, "payload_hex": "136fbea359"}

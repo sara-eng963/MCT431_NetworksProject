@@ -1,0 +1,38 @@
+Filter added.
+
+Filter added.
+
+
+Logger Parameters:
+    Logger name:        PktMon
+    Logging mode:       Circular
+    Log file:           C:\Users\aliwa\OneDrive\Documents\ChatGPT\Kaboo Networks\MCT431_NetworksProject\logs\milestone1-20261118\capture-final\milestone1.etl
+    Max file size:      64 MB
+    Memory used:        512 MB
+
+Collected Data:
+    Packet counters, packet capture
+
+Capture Type:
+    All packets
+
+Monitored Components:
+    Network adapters
+
+Packet Filters:
+     # Name              Protocol Port 
+     - ----              -------- ---- 
+     1 MCT431_Inspection TCP      9000 
+     2 MCT431_Operator   TCP      8000 
+
+Flushing logs...
+Merging metadata...
+Log file: C:\Users\aliwa\OneDrive\Documents\ChatGPT\Kaboo Networks\MCT431_NetworksProject\logs\milestone1-20261118\capture-final\milestone1.etl (No events lost)
+
+Processing...
+
+Packets total:       140
+Packet drop count:   0
+Packets formatted:   140
+Formatted file:      C:\Users\aliwa\OneDrive\Documents\ChatGPT\Kaboo Networks\MCT431_NetworksProject\logs\milestone1-20261118\capture-final\milestone1.pcapng
+

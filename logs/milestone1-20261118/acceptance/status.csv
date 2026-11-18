@@ -1,0 +1,93 @@
+case,monotonic_ns,batch_id,state,produced,inspected,accepted,rejected,waiting,inflight,outcome
+setup,423883324389800,0,Idle,0,0,0,0,0,,No batch
+setup,423883531216300,0,Idle,0,0,0,0,0,,No batch
+setup,423883732798500,0,Idle,0,0,0,0,0,,No batch
+setup,423883943639400,0,Idle,0,0,0,0,0,,Ready to configure
+inspection_faster,423884146243200,1058227327,Running,0,0,0,0,0,,In progress
+inspection_faster,423884349207300,1058227327,Running,0,0,0,0,0,,In progress
+inspection_faster,423884563821800,1058227327,Running,2,1,1,0,1,,In progress
+inspection_faster,423884764155800,1058227327,Running,3,2,1,1,0,46,In progress
+inspection_faster,423884965269000,1058227327,Running,4,2,1,1,1,46,In progress
+inspection_faster,423885166332900,1058227327,Running,5,2,1,1,2,46,In progress
+inspection_faster,423885369428700,1058227327,Running,6,2,1,1,3,46,In progress
+inspection_faster,423885575773700,1058227327,Running,7,2,1,1,4,46,In progress
+inspection_faster,423885778094900,1058227327,Running,8,4,3,1,3,48,In progress
+inspection_faster,423885988643200,1058227327,Running,9,7,5,2,1,51,In progress
+inspection_faster,423886189819500,1058227327,Running,10,9,7,2,0,53,In progress
+inspection_faster,423886391406400,1058227327,Running,11,10,8,2,0,54,In progress
+inspection_faster,423886593949000,1058227327,Running,12,11,9,2,0,55,In progress
+production_faster_with_room,423886799070700,2892262860,Idle,0,0,0,0,0,,Configured
+production_faster_with_room,423887014969400,2892262860,Running,2,0,0,0,1,56,In progress
+production_faster_with_room,423887215638400,2892262860,Running,4,1,0,1,2,57,In progress
+production_faster_with_room,423887423493700,2892262860,Running,7,2,1,1,4,58,In progress
+production_faster_with_room,423887631662200,2892262860,Running,10,3,2,1,6,59,In progress
+production_faster_with_room,423887833808100,2892262860,Running,12,4,2,2,7,60,In progress
+production_faster_with_room,423888037452600,2892262860,Running,12,5,3,2,6,61,In progress
+production_faster_with_room,423888240169400,2892262860,Running,12,6,4,2,5,62,In progress
+production_faster_with_room,423888441506700,2892262860,Running,12,7,4,3,4,63,In progress
+production_faster_with_room,423888643412600,2892262860,Running,12,8,5,3,3,64,In progress
+production_faster_with_room,423888844674600,2892262860,Running,12,9,6,3,2,65,In progress
+production_faster_with_room,423889045880900,2892262860,Running,12,9,6,3,2,65,In progress
+production_faster_with_room,423889259746800,2892262860,Running,12,10,6,4,1,66,In progress
+production_faster_with_room,423889462992500,2892262860,Running,12,11,7,4,0,67,In progress
+pause_resume,423889665431000,2892262860,Idle,12,12,8,4,0,,Completed
+pause_resume,423889882035900,2892262860,Idle,12,12,8,4,0,,Completed
+pause_resume,423890083828300,3078535256,Running,1,0,0,0,0,68,In progress
+pause_resume,423890285530200,3078535256,Running,2,0,0,0,1,68,In progress
+pause_resume,423890487869700,3078535256,Paused,3,2,2,0,1,,In progress
+pause_resume,423890689728000,3078535256,Paused,3,2,2,0,1,,In progress
+pause_resume,423890893258700,3078535256,Paused,3,2,2,0,1,,In progress
+pause_resume,423891097278900,3078535256,Running,3,2,2,0,0,70,In progress
+pause_resume,423891298836100,3078535256,Running,4,3,3,0,0,71,In progress
+pause_resume,423891499463500,3078535256,Running,6,4,4,0,1,72,In progress
+pause_resume,423891701780200,3078535256,Running,8,5,5,0,2,73,In progress
+pause_resume,423891903176100,3078535256,Running,9,6,6,0,2,74,In progress
+pause_resume,423892104304200,3078535256,Running,11,7,6,1,3,75,In progress
+pause_resume,423892306633100,3078535256,Running,13,8,7,1,4,76,In progress
+pause_resume,423892507253500,3078535256,Running,14,10,9,1,3,78,In progress
+pause_resume,423892708933400,3078535256,Running,16,10,9,1,5,78,In progress
+pause_resume,423892923196400,3078535256,Running,18,11,10,1,6,79,In progress
+pause_resume,423893139382700,3078535256,Running,20,12,11,1,7,80,In progress
+pause_resume,423893343110100,3078535256,Running,20,13,12,1,7,,In progress
+pause_resume,423893558400500,3078535256,Running,20,14,12,2,5,82,In progress
+pause_resume,423893760686900,3078535256,Running,20,15,13,2,4,83,In progress
+pause_resume,423893963696200,3078535256,Running,20,16,14,2,3,84,In progress
+pause_resume,423894165630900,3078535256,Running,20,17,15,2,2,85,In progress
+pause_resume,423894369199700,3078535256,Running,20,18,16,2,1,86,In progress
+pause_resume,423894570722200,3078535256,Idle,20,20,18,2,0,,Completed
+stop_aborts,423894774583500,949887884,Running,0,0,0,0,0,,In progress
+stop_aborts,423894975328000,949887884,Running,2,0,0,0,1,88,In progress
+stop_aborts,423895179304700,949887884,Paused,3,1,1,0,1,89,In progress
+stop_aborts,423895381118300,949887884,Idle,3,1,1,0,0,,Aborted
+stop_aborts,423895587189600,949887884,Idle,3,1,1,0,0,,Aborted
+queue_full_fault,423895790077200,2677167671,Running,1,0,0,0,0,91,In progress
+queue_full_fault,423896005808000,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423896210409800,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423896426090300,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423896642186400,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423896857862700,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423897060017200,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423897265891600,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423897469831600,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423897685727800,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423897901815800,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423898104645400,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423898307497100,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423898509571200,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423898723779300,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423898927473700,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423899128283800,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423899332111300,2677167671,Fault,4,0,0,0,2,91,Fault — batch incomplete
+queue_full_fault,423899534781600,2677167671,Paused,4,0,0,0,2,91,Fault — batch incomplete
+recovered_batch_new_rule,423899738507900,2677167671,Idle,4,0,0,0,0,,Aborted
+recovered_batch_new_rule,423899940624800,171899406,Running,0,0,0,0,0,,In progress
+recovered_batch_new_rule,423900142966300,171899406,Running,1,1,1,0,0,,In progress
+recovered_batch_new_rule,423900345682200,171899406,Running,3,1,1,0,1,96,In progress
+recovered_batch_new_rule,423900561902000,171899406,Running,4,1,1,0,2,96,In progress
+recovered_batch_new_rule,423900764101400,171899406,Running,5,1,1,0,3,96,In progress
+recovered_batch_new_rule,423900966447000,171899406,Running,6,1,1,0,4,96,In progress
+recovered_batch_new_rule,423901169597500,171899406,Running,7,1,1,0,5,96,In progress
+recovered_batch_new_rule,423901374963100,171899406,Running,8,1,1,0,6,96,In progress
+recovered_batch_new_rule,423901577735900,171899406,Running,9,1,1,0,7,96,In progress
+recovered_batch_new_rule,423901779979800,171899406,Fault,11,1,1,0,8,96,Fault — batch incomplete
+recovered_batch_new_rule,423901994810500,171899406,Fault,11,1,1,0,8,96,Fault — batch incomplete

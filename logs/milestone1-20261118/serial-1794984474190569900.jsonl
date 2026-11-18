@@ -1,0 +1,158 @@
+{"time_ns": 1794984474663948700, "monotonic_ns": 424591755011200, "event": "rx", "atr_hex": "000000000787001201009cfe2a1b319a699d0000000c000000b38208"}
+{"time_ns": 1794984474664129300, "monotonic_ns": 424591755191400, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984474664377400, "monotonic_ns": 424591755439600, "event": "tx", "wire_hex": "c00000000000000005069cfe2a1b9d01c0"}
+{"time_ns": 1794984474856182800, "monotonic_ns": 424591947243300, "event": "tx", "wire_hex": "c00000000000010016029cfe2a1b000000dbdc319a699d0500000000000000007639c0"}
+{"time_ns": 1794984474858005200, "monotonic_ns": 424591949065900, "event": "command_requested", "cmd_id": 192, "operation": "stop", "batch_id": 832203165}
+{"time_ns": 1794984474864326200, "monotonic_ns": 424591955386700, "event": "rx", "atr_hex": "000000000788000c039cfe2a1b000000c0010000ecec"}
+{"time_ns": 1794984474864385400, "monotonic_ns": 424591955445600, "event": "delivery", "cmd_id": 192, "result": "OK", "state": "IDLE"}
+{"time_ns": 1794984474867040400, "monotonic_ns": 424591958100700, "event": "rx", "atr_hex": "000000000789000c039cfe2a1b000000c00200001b40"}
+{"time_ns": 1794984474867083100, "monotonic_ns": 424591958143300, "event": "acceptance", "cmd_id": 192, "result": "OK", "state": "IDLE"}
+{"time_ns": 1794984474869866600, "monotonic_ns": 424591960927000, "event": "rx", "atr_hex": "00000000078a000c039cfe2a1b000000c0030000cf55"}
+{"time_ns": 1794984474869932900, "monotonic_ns": 424591960993200, "event": "completion", "cmd_id": 192, "result": "OK", "state": "IDLE"}
+{"time_ns": 1794984474869979100, "monotonic_ns": 424591961039600, "event": "batch_aborted", "batch_id": 832203165}
+{"time_ns": 1794984474870964700, "monotonic_ns": 424591962025200, "event": "rx", "atr_hex": "00000000078b001201009cfe2a1b319a699d0000000c000000c06431"}
+{"time_ns": 1794984474870998800, "monotonic_ns": 424591962059000, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984475177227000, "monotonic_ns": 424592268285700, "event": "tx", "wire_hex": "c00000000000020005069cfe2a1b12a7c0"}
+{"time_ns": 1794984475664080800, "monotonic_ns": 424592755134200, "event": "rx", "atr_hex": "00000000078c001201009cfe2a1b319a699d0000000c000000c06db1"}
+{"time_ns": 1794984475664145900, "monotonic_ns": 424592755198700, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984475722809000, "monotonic_ns": 424592813862000, "event": "tx", "wire_hex": "c00000000000030005069cfe2a1b5574c0"}
+{"time_ns": 1794984476223099400, "monotonic_ns": 424593314147600, "event": "tx", "wire_hex": "c00000000000040005069cfe2a1b926cc0"}
+{"time_ns": 1794984476663967900, "monotonic_ns": 424593755011900, "event": "rx", "atr_hex": "00000000078d001201009cfe2a1b319a699d0000000c000000c0b847"}
+{"time_ns": 1794984476664026600, "monotonic_ns": 424593755070400, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984476724671400, "monotonic_ns": 424593815715500, "event": "tx", "wire_hex": "c00000000000050005069cfe2a1bd5bfc0"}
+{"time_ns": 1794984477285935500, "monotonic_ns": 424594376974000, "event": "tx", "wire_hex": "c00000000000060005069cfe2a1b1dcac0"}
+{"time_ns": 1794984477663903700, "monotonic_ns": 424594754938800, "event": "rx", "atr_hex": "00000000078e001201009cfe2a1b319a699d0000000c000000c0d67c"}
+{"time_ns": 1794984477663960700, "monotonic_ns": 424594754995600, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984477847819500, "monotonic_ns": 424594938853000, "event": "tx", "wire_hex": "c00000000000070005069cfe2a1b5a19c0"}
+{"time_ns": 1794984478405765800, "monotonic_ns": 424595496794200, "event": "tx", "wire_hex": "c00000000000080005069cfe2a1b83dbddc0"}
+{"time_ns": 1794984478663940800, "monotonic_ns": 424595754966600, "event": "rx", "atr_hex": "00000000078f001201009cfe2a1b319a699d0000000c000000c0038a"}
+{"time_ns": 1794984478664013600, "monotonic_ns": 424595755039200, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984478905863800, "monotonic_ns": 424595996888000, "event": "tx", "wire_hex": "c00000000000090005069cfe2a1bc408c0"}
+{"time_ns": 1794984479464047100, "monotonic_ns": 424596555065900, "event": "tx", "wire_hex": "c000000000000a0005069cfe2a1b0c7dc0"}
+{"time_ns": 1794984479663938300, "monotonic_ns": 424596754955300, "event": "rx", "atr_hex": "000000000790001201009cfe2a1b319a699d0000000c000000c04bb1"}
+{"time_ns": 1794984479663996300, "monotonic_ns": 424596755012900, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984479979235100, "monotonic_ns": 424597070249300, "event": "tx", "wire_hex": "c000000000000b0005069cfe2a1b4baec0"}
+{"time_ns": 1794984480539762800, "monotonic_ns": 424597630772100, "event": "tx", "wire_hex": "c000000000000c0005069cfe2a1b8cb6c0"}
+{"time_ns": 1794984480663939700, "monotonic_ns": 424597754947400, "event": "rx", "atr_hex": "000000000791001201009cfe2a1b319a699d0000000c000000c09e47"}
+{"time_ns": 1794984480663996200, "monotonic_ns": 424597755003600, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984481098498600, "monotonic_ns": 424598189502900, "event": "tx", "wire_hex": "c000000000000d0005069cfe2a1bcb65c0"}
+{"time_ns": 1794984481654816100, "monotonic_ns": 424598745815000, "event": "tx", "wire_hex": "c000000000000e0005069cfe2a1b0310c0"}
+{"time_ns": 1794984481664183700, "monotonic_ns": 424598755182400, "event": "rx", "atr_hex": "000000000792001201009cfe2a1b319a699d0000000c000000c0f07c"}
+{"time_ns": 1794984481664254600, "monotonic_ns": 424598755253000, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984482155676100, "monotonic_ns": 424599246670400, "event": "tx", "wire_hex": "c000000000000f0005069cfe2a1b44c3c0"}
+{"time_ns": 1794984482673958000, "monotonic_ns": 424599764947700, "event": "tx", "wire_hex": "c00000000000100005069cfe2a1ba0b5c0"}
+{"time_ns": 1794984482674050900, "monotonic_ns": 424599765040100, "event": "rx", "atr_hex": "000000000793001201009cfe2a1b319a699d0000000c000000c0258a"}
+{"time_ns": 1794984482674074900, "monotonic_ns": 424599765064100, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984483228381200, "monotonic_ns": 424600319366200, "event": "tx", "wire_hex": "c00000000000110005069cfe2a1be766c0"}
+{"time_ns": 1794984483673846800, "monotonic_ns": 424600764827200, "event": "rx", "atr_hex": "000000000794001201009cfe2a1b319a699d0000000c000000c02c0a"}
+{"time_ns": 1794984483673895700, "monotonic_ns": 424600764875800, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984483729799600, "monotonic_ns": 424600820779700, "event": "tx", "wire_hex": "c00000000000120005069cfe2a1b2f13c0"}
+{"time_ns": 1794984484289706100, "monotonic_ns": 424601380681100, "event": "tx", "wire_hex": "c00000000000130005069cfe2a1b68dbdcc0"}
+{"time_ns": 1794984484673902500, "monotonic_ns": 424601764874000, "event": "rx", "atr_hex": "000000000795001201009cfe2a1b319a699d0000000c000000c0f9fc"}
+{"time_ns": 1794984484673984100, "monotonic_ns": 424601764955200, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984484849695000, "monotonic_ns": 424601940665300, "event": "tx", "wire_hex": "c00000000000140005069cfe2a1bafd8c0"}
+{"time_ns": 1794984485410325500, "monotonic_ns": 424602501290300, "event": "tx", "wire_hex": "c00000000000150005069cfe2a1be80bc0"}
+{"time_ns": 1794984485673814700, "monotonic_ns": 424602764776800, "event": "rx", "atr_hex": "000000000796001201009cfe2a1b319a699d0000000c000000c097c7"}
+{"time_ns": 1794984485673874100, "monotonic_ns": 424602764836000, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984485925126500, "monotonic_ns": 424603016086500, "event": "tx", "wire_hex": "c00000000000160005069cfe2a1b207ec0"}
+{"time_ns": 1794984486481504500, "monotonic_ns": 424603572459300, "event": "tx", "wire_hex": "c00000000000170005069cfe2a1b67adc0"}
+{"time_ns": 1794984486673782100, "monotonic_ns": 424603764735100, "event": "rx", "atr_hex": "000000000797001201009cfe2a1b319a699d0000000c000000c04231"}
+{"time_ns": 1794984486673841000, "monotonic_ns": 424603764793800, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984487041891300, "monotonic_ns": 424604132841000, "event": "tx", "wire_hex": "c00000000000180005069cfe2a1bbe6fc0"}
+{"time_ns": 1794984487604613700, "monotonic_ns": 424604695558800, "event": "tx", "wire_hex": "c00000000000190005069cfe2a1bf9bcc0"}
+{"time_ns": 1794984487673722600, "monotonic_ns": 424604764666600, "event": "rx", "atr_hex": "000000000798001201009cfe2a1b319a699d0000000c000000c084c7"}
+{"time_ns": 1794984487673778600, "monotonic_ns": 424604764722300, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984488165629400, "monotonic_ns": 424605256569000, "event": "tx", "wire_hex": "c000000000001a0005069cfe2a1b31c9c0"}
+{"time_ns": 1794984488673917800, "monotonic_ns": 424605764852900, "event": "tx", "wire_hex": "c000000000001b0005069cfe2a1b761ac0"}
+{"time_ns": 1794984488674057200, "monotonic_ns": 424605764991900, "event": "rx", "atr_hex": "000000000799001201009cfe2a1b319a699d0000000c000000c05131"}
+{"time_ns": 1794984488674081100, "monotonic_ns": 424605765015600, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984489224997300, "monotonic_ns": 424606315927000, "event": "tx", "wire_hex": "c000000000001c0005069cfe2a1bb102c0"}
+{"time_ns": 1794984489673734800, "monotonic_ns": 424606764660600, "event": "rx", "atr_hex": "00000000079a001201009cfe2a1b319a699d0000000c000000c03f0a"}
+{"time_ns": 1794984489673799100, "monotonic_ns": 424606764724600, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984489736946200, "monotonic_ns": 424606827871800, "event": "tx", "wire_hex": "c000000000001d0005069cfe2a1bf6d1c0"}
+{"time_ns": 1794984490294209700, "monotonic_ns": 424607385130500, "event": "tx", "wire_hex": "c000000000001e0005069cfe2a1b3ea4c0"}
+{"time_ns": 1794984490673735400, "monotonic_ns": 424607764652100, "event": "rx", "atr_hex": "00000000079b001201009cfe2a1b319a699d0000000c000000c0eafc"}
+{"time_ns": 1794984490673808800, "monotonic_ns": 424607764725200, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984490855918800, "monotonic_ns": 424607946834400, "event": "tx", "wire_hex": "c000000000001f0005069cfe2a1b7977c0"}
+{"time_ns": 1794984491417439400, "monotonic_ns": 424608508349800, "event": "tx", "wire_hex": "c00000000000200005069cfe2a1be669c0"}
+{"time_ns": 1794984491673901400, "monotonic_ns": 424608764809500, "event": "rx", "atr_hex": "00000000079c001201009cfe2a1b319a699d0000000c000000c0e37c"}
+{"time_ns": 1794984491674014400, "monotonic_ns": 424608764922000, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984491917884100, "monotonic_ns": 424609008790200, "event": "tx", "wire_hex": "c00000000000210005069cfe2a1ba1bac0"}
+{"time_ns": 1794984492476329400, "monotonic_ns": 424609567230400, "event": "tx", "wire_hex": "c00000000000220005069cfe2a1b69cfc0"}
+{"time_ns": 1794984492673667200, "monotonic_ns": 424609764565600, "event": "rx", "atr_hex": "00000000079d001201009cfe2a1b319a699d0000000c000000c0368a"}
+{"time_ns": 1794984492673730400, "monotonic_ns": 424609764628600, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984492977107600, "monotonic_ns": 424610068003400, "event": "tx", "wire_hex": "c00000000000230005069cfe2a1b2e1cc0"}
+{"time_ns": 1794984493538746900, "monotonic_ns": 424610629637700, "event": "tx", "wire_hex": "c00000000000240005069cfe2a1be904c0"}
+{"time_ns": 1794984493673709800, "monotonic_ns": 424610764599300, "event": "rx", "atr_hex": "00000000079e001201009cfe2a1b319a699d0000000c000000c058b1"}
+{"time_ns": 1794984493673785500, "monotonic_ns": 424610764674600, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984494095312400, "monotonic_ns": 424611186198300, "event": "tx", "wire_hex": "c00000000000250005069cfe2a1baed7c0"}
+{"time_ns": 1794984494655634200, "monotonic_ns": 424611746515000, "event": "tx", "wire_hex": "c00000000000260005069cfe2a1b66a2c0"}
+{"time_ns": 1794984494673633500, "monotonic_ns": 424611764513800, "event": "rx", "atr_hex": "00000000079f001201009cfe2a1b319a699d0000000c000000c08d47"}
+{"time_ns": 1794984494673692400, "monotonic_ns": 424611764572400, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984495173187400, "monotonic_ns": 424612264063200, "event": "tx", "wire_hex": "c00000000000270005069cfe2a1b2171c0"}
+{"time_ns": 1794984495673679400, "monotonic_ns": 424612764550900, "event": "tx", "wire_hex": "c00000000000280005069cfe2a1bf8b3c0"}
+{"time_ns": 1794984495673781400, "monotonic_ns": 424612764652300, "event": "rx", "atr_hex": "0000000007a0001201009cfe2a1b319a699d0000000c000000c0c8c7"}
+{"time_ns": 1794984495673805000, "monotonic_ns": 424612764675800, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984496232524800, "monotonic_ns": 424613323391100, "event": "tx", "wire_hex": "c00000000000290005069cfe2a1bbf60c0"}
+{"time_ns": 1794984496673563000, "monotonic_ns": 424613764425100, "event": "rx", "atr_hex": "0000000007a1001201009cfe2a1b319a699d0000000c000000c01d31"}
+{"time_ns": 1794984496673627700, "monotonic_ns": 424613764489500, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984496792557600, "monotonic_ns": 424613883418800, "event": "tx", "wire_hex": "c000000000002a0005069cfe2a1b7715c0"}
+{"time_ns": 1794984497293145300, "monotonic_ns": 424614384002300, "event": "tx", "wire_hex": "c000000000002b0005069cfe2a1b30c6c0"}
+{"time_ns": 1794984497673707300, "monotonic_ns": 424614764560300, "event": "rx", "atr_hex": "0000000007a2001201009cfe2a1b319a699d0000000c000000c0730a"}
+{"time_ns": 1794984497673770100, "monotonic_ns": 424614764622800, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984497850308000, "monotonic_ns": 424614941159400, "event": "tx", "wire_hex": "c000000000002c0005069cfe2a1bf7dec0"}
+{"time_ns": 1794984498409465100, "monotonic_ns": 424615500311800, "event": "tx", "wire_hex": "c000000000002d0005069cfe2a1bb00dc0"}
+{"time_ns": 1794984498673713400, "monotonic_ns": 424615764557600, "event": "rx", "atr_hex": "0000000007a3001201009cfe2a1b319a699d0000000c000000c0a6fc"}
+{"time_ns": 1794984498673797300, "monotonic_ns": 424615764640900, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984498927101800, "monotonic_ns": 424616017943700, "event": "tx", "wire_hex": "c000000000002e0005069cfe2a1b7878c0"}
+{"time_ns": 1794984499486115400, "monotonic_ns": 424616576952500, "event": "tx", "wire_hex": "c000000000002f0005069cfe2a1b3fabc0"}
+{"time_ns": 1794984499673488200, "monotonic_ns": 424616764322900, "event": "rx", "atr_hex": "0000000007a4001201009cfe2a1b319a699d0000000c000000c0af7c"}
+{"time_ns": 1794984499673548700, "monotonic_ns": 424616764383200, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984500044358200, "monotonic_ns": 424617135189700, "event": "tx", "wire_hex": "c00000000000300005069cfe2a1bdbddddc0"}
+{"time_ns": 1794984500605376300, "monotonic_ns": 424617696202900, "event": "tx", "wire_hex": "c00000000000310005069cfe2a1b9c0ec0"}
+{"time_ns": 1794984500673571800, "monotonic_ns": 424617764397600, "event": "rx", "atr_hex": "0000000007a5001201009cfe2a1b319a699d0000000c000000c07a8a"}
+{"time_ns": 1794984500673701500, "monotonic_ns": 424617764527000, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984501160200000, "monotonic_ns": 424618251021700, "event": "tx", "wire_hex": "c00000000000320005069cfe2a1b547bc0"}
+{"time_ns": 1794984501673671600, "monotonic_ns": 424618764488500, "event": "tx", "wire_hex": "c00000000000330005069cfe2a1b13a8c0"}
+{"time_ns": 1794984501673809200, "monotonic_ns": 424618764625600, "event": "rx", "atr_hex": "0000000007a6001201009cfe2a1b319a699d0000000c000000c014b1"}
+{"time_ns": 1794984501673843600, "monotonic_ns": 424618764660000, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984502232676000, "monotonic_ns": 424619323487800, "event": "tx", "wire_hex": "c00000000000340005069cfe2a1bd4b0c0"}
+{"time_ns": 1794984502673438800, "monotonic_ns": 424619764246200, "event": "rx", "atr_hex": "0000000007a7001201009cfe2a1b319a699d0000000c000000c0c147"}
+{"time_ns": 1794984502673503900, "monotonic_ns": 424619764311000, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984502736425000, "monotonic_ns": 424619827232500, "event": "tx", "wire_hex": "c00000000000350005069cfe2a1b9363c0"}
+{"time_ns": 1794984503298568800, "monotonic_ns": 424620389371300, "event": "tx", "wire_hex": "c00000000000360005069cfe2a1b5b16c0"}
+{"time_ns": 1794984503673598700, "monotonic_ns": 424620764397200, "event": "rx", "atr_hex": "0000000007a8001201009cfe2a1b319a699d0000000c000000c007b1"}
+{"time_ns": 1794984503673701800, "monotonic_ns": 424620764500000, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984503800193000, "monotonic_ns": 424620890990400, "event": "tx", "wire_hex": "c00000000000370005069cfe2a1b1cc5c0"}
+{"time_ns": 1794984504360010500, "monotonic_ns": 424621450802800, "event": "tx", "wire_hex": "c00000000000380005069cfe2a1bc507c0"}
+{"time_ns": 1794984504673512400, "monotonic_ns": 424621764301700, "event": "rx", "atr_hex": "0000000007a9001201009cfe2a1b319a699d0000000c000000c0d247"}
+{"time_ns": 1794984504673574700, "monotonic_ns": 424621764363700, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984504860741500, "monotonic_ns": 424621951529300, "event": "tx", "wire_hex": "c00000000000390005069cfe2a1b82d4c0"}
+{"time_ns": 1794984505418813700, "monotonic_ns": 424622509596300, "event": "tx", "wire_hex": "c000000000003a0005069cfe2a1b4aa1c0"}
+{"time_ns": 1794984505673494800, "monotonic_ns": 424622764275100, "event": "rx", "atr_hex": "0000000007aa001201009cfe2a1b319a699d0000000c000000c0bc7c"}
+{"time_ns": 1794984505673568400, "monotonic_ns": 424622764348400, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984505921729600, "monotonic_ns": 424623012507700, "event": "tx", "wire_hex": "c000000000003b0005069cfe2a1b0d72c0"}
+{"time_ns": 1794984506423281500, "monotonic_ns": 424623514055000, "event": "tx", "wire_hex": "c000000000003c0005069cfe2a1bca6ac0"}
+{"time_ns": 1794984506673626300, "monotonic_ns": 424623764397700, "event": "rx", "atr_hex": "0000000007ab001201009cfe2a1b319a699d0000000c000000c0698a"}
+{"time_ns": 1794984506673706000, "monotonic_ns": 424623764476900, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984506923340600, "monotonic_ns": 424624014109600, "event": "tx", "wire_hex": "c000000000003d0005069cfe2a1b8db9c0"}
+{"time_ns": 1794984507480521500, "monotonic_ns": 424624571285700, "event": "tx", "wire_hex": "c000000000003e0005069cfe2a1b45ccc0"}
+{"time_ns": 1794984507673379100, "monotonic_ns": 424624764141300, "event": "rx", "atr_hex": "0000000007ac001201009cfe2a1b319a699d0000000c000000c0600a"}
+{"time_ns": 1794984507673465200, "monotonic_ns": 424624764226900, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984508039964200, "monotonic_ns": 424625130722900, "event": "tx", "wire_hex": "c000000000003f0005069cfe2a1b021fc0"}
+{"time_ns": 1794984508598585100, "monotonic_ns": 424625689339000, "event": "tx", "wire_hex": "c00000000000400005069cfe2a1b6bd1c0"}
+{"time_ns": 1794984508673493400, "monotonic_ns": 424625764246400, "event": "rx", "atr_hex": "0000000007ad001201009cfe2a1b319a699d0000000c000000c0b5fc"}
+{"time_ns": 1794984508673561500, "monotonic_ns": 424625764314100, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984509110779600, "monotonic_ns": 424626201528900, "event": "tx", "wire_hex": "c00000000000410005069cfe2a1b2c02c0"}
+{"time_ns": 1794984509671576100, "monotonic_ns": 424626762320200, "event": "tx", "wire_hex": "c00000000000420005069cfe2a1be477c0"}
+{"time_ns": 1794984509673233300, "monotonic_ns": 424626763977200, "event": "rx", "atr_hex": "0000000007ae001201009cfe2a1b319a699d0000000c000000c0dbc7"}
+{"time_ns": 1794984509673285800, "monotonic_ns": 424626764029300, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984510232077600, "monotonic_ns": 424627322816500, "event": "tx", "wire_hex": "c00000000000430005069cfe2a1ba3a4c0"}
+{"time_ns": 1794984510673403200, "monotonic_ns": 424627764138000, "event": "rx", "atr_hex": "0000000007af001201009cfe2a1b319a699d0000000c000000c00e31"}
+{"time_ns": 1794984510673478800, "monotonic_ns": 424627764213200, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984510794611000, "monotonic_ns": 424627885345100, "event": "tx", "wire_hex": "c00000000000440005069cfe2a1b64bcc0"}
+{"time_ns": 1794984511296622400, "monotonic_ns": 424628387352100, "event": "tx", "wire_hex": "c00000000000450005069cfe2a1b236fc0"}
+{"time_ns": 1794984511673313300, "monotonic_ns": 424628764038700, "event": "rx", "atr_hex": "0000000007b0001201009cfe2a1b319a699d0000000c000000c0460a"}
+{"time_ns": 1794984511673353700, "monotonic_ns": 424628764079000, "event": "status", "boot_id": 2633902619, "batch_id": 832203165, "state": "IDLE", "produced": 12}
+{"time_ns": 1794984511858147500, "monotonic_ns": 424628948871300, "event": "tx", "wire_hex": "c00000000000460005069cfe2a1beb1ac0"}
+{"time_ns": 1794984512420096900, "monotonic_ns": 424629510816400, "event": "tx", "wire_hex": "c00000000000470005069cfe2a1bacc9c0"}

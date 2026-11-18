@@ -1,0 +1,30 @@
+{"event": "tcp_rx", "time_ns": 1794986697186200400, "monotonic_ns": 426814259362900, "payload_hex": "1402c9f19922e056d2aa0000014100000050000000040000000200000000"}
+{"event": "inspector_status", "time_ns": 1794986697186373200, "monotonic_ns": 426814259534500, "state": 2, "boot_id": 3388053794, "batch_id": 3763786410, "last_id": 321, "inspection_ms": 80, "n": 4, "k": 2}
+{"event": "tcp_tx", "time_ns": 1794986697207532300, "monotonic_ns": 426814280693400, "payload_hex": "15c9f1992200000142"}
+{"event": "tcp_tx", "time_ns": 1794986697207635600, "monotonic_ns": 426814280796600, "payload_hex": "13c9f19922"}
+{"event": "tcp_rx", "time_ns": 1794986697386273300, "monotonic_ns": 426814459433900, "payload_hex": "12c9f19922000001420100000000000000000000"}
+{"event": "tcp_rx", "time_ns": 1794986697386366300, "monotonic_ns": 426814459526300, "payload_hex": "12c9f19922000001420200000000000000000000"}
+{"event": "tcp_rx", "time_ns": 1794986697386412400, "monotonic_ns": 426814459572300, "payload_hex": "12c9f19922000001420300000000000000000000"}
+{"event": "tcp_rx", "time_ns": 1794986697386446500, "monotonic_ns": 426814459606400, "payload_hex": "1400c9f19922000000000000014200000050000000000000000200000000"}
+{"event": "inspector_status", "time_ns": 1794986697386486500, "monotonic_ns": 426814459646300, "state": 0, "boot_id": 3388053794, "batch_id": 0, "last_id": 322, "inspection_ms": 80, "n": 0, "k": 2}
+{"event": "delivery", "time_ns": 1794986697386528000, "monotonic_ns": 426814459687900, "identifier": 322, "result": 0, "verdict": 0, "part_id": 0}
+{"event": "acceptance", "time_ns": 1794986697386562700, "monotonic_ns": 426814459722500, "identifier": 322, "result": 0, "verdict": 0, "part_id": 0}
+{"event": "completion", "time_ns": 1794986697386593300, "monotonic_ns": 426814459753200, "identifier": 322, "result": 0, "verdict": 0, "part_id": 0}
+{"event": "tcp_tx", "time_ns": 1794986697835486300, "monotonic_ns": 426814908643600, "payload_hex": "13c9f19922"}
+{"event": "tcp_rx", "time_ns": 1794986698117244800, "monotonic_ns": 426815190399400, "payload_hex": "1400c9f19922000000000000014200000050000000000000000200000000"}
+{"event": "inspector_status", "time_ns": 1794986698117297100, "monotonic_ns": 426815190451500, "state": 0, "boot_id": 3388053794, "batch_id": 0, "last_id": 322, "inspection_ms": 80, "n": 0, "k": 2}
+{"event": "tcp_tx", "time_ns": 1794986698429531300, "monotonic_ns": 426815502684000, "payload_hex": "13c9f19922"}
+{"event": "tcp_tx", "time_ns": 1794986698994480200, "monotonic_ns": 426816067628900, "payload_hex": "13c9f19922"}
+{"event": "tcp_rx", "time_ns": 1794986699205236700, "monotonic_ns": 426816278383800, "payload_hex": "1400c9f19922000000000000014200000050000000000000000200000000"}
+{"event": "inspector_status", "time_ns": 1794986699205317400, "monotonic_ns": 426816278463900, "state": 0, "boot_id": 3388053794, "batch_id": 0, "last_id": 322, "inspection_ms": 80, "n": 0, "k": 2}
+{"event": "tcp_tx", "time_ns": 1794986699509545100, "monotonic_ns": 426816582689900, "payload_hex": "13c9f19922"}
+{"event": "tcp_tx", "time_ns": 1794986700072458800, "monotonic_ns": 426817145599500, "payload_hex": "13c9f19922"}
+{"event": "tcp_rx", "time_ns": 1794986700095203400, "monotonic_ns": 426817168343800, "payload_hex": "1400c9f19922000000000000014200000050000000000000000200000000"}
+{"event": "inspector_status", "time_ns": 1794986700095268400, "monotonic_ns": 426817168408400, "state": 0, "boot_id": 3388053794, "batch_id": 0, "last_id": 322, "inspection_ms": 80, "n": 0, "k": 2}
+{"event": "tcp_tx", "time_ns": 1794986700684316500, "monotonic_ns": 426817757453000, "payload_hex": "13c9f19922"}
+{"event": "tcp_rx", "time_ns": 1794986701108101800, "monotonic_ns": 426818181235100, "payload_hex": "1400c9f19922000000000000014200000050000000000000000200000000"}
+{"event": "inspector_status", "time_ns": 1794986701108192200, "monotonic_ns": 426818181324800, "state": 0, "boot_id": 3388053794, "batch_id": 0, "last_id": 322, "inspection_ms": 80, "n": 0, "k": 2}
+{"event": "tcp_tx", "time_ns": 1794986701280811900, "monotonic_ns": 426818353943900, "payload_hex": "13c9f19922"}
+{"event": "tcp_tx", "time_ns": 1794986701842656400, "monotonic_ns": 426818915784200, "payload_hex": "13c9f19922"}
+{"event": "tcp_rx", "time_ns": 1794986702124403100, "monotonic_ns": 426819197528600, "payload_hex": "1400c9f19922000000000000014200000050000000000000000200000000"}
+{"event": "inspector_status", "time_ns": 1794986702124550600, "monotonic_ns": 426819197676300, "state": 0, "boot_id": 3388053794, "batch_id": 0, "last_id": 322, "inspection_ms": 80, "n": 0, "k": 2}

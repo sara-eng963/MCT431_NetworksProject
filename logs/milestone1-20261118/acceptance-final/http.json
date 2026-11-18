@@ -1,0 +1,789 @@
+[
+  {
+    "monotonic_ns": 424651858983100,
+    "path": "/api/connect",
+    "request": {
+      "serial_port": "COM7",
+      "host": "192.168.100.39",
+      "port": 9000
+    },
+    "response": {
+      "state": "Idle",
+      "connected": true,
+      "configured": false,
+      "fault": null,
+      "batch_id": 943025621,
+      "config": {
+        "target": 3,
+        "cycle_ms": 800,
+        "inspection_ms": 200,
+        "n": 2,
+        "k": 1,
+        "capacity": 8
+      },
+      "produced": 3,
+      "inspected": 3,
+      "accepted": 1,
+      "rejected": 2,
+      "waiting": 0,
+      "inflight": null,
+      "outcome": "Ready to configure",
+      "serial_port": "COM7",
+      "inspector_host": "192.168.100.39",
+      "events": [
+        {
+          "event": "part_queued",
+          "time_ns": 1794984119710615800,
+          "monotonic_ns": 424236804908100,
+          "part_id": 161,
+          "batch_id": 832203165,
+          "waiting": 1
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984119726793700,
+          "monotonic_ns": 424236821085800,
+          "batch_id": 832203165,
+          "part_id": 160,
+          "job_id": 183,
+          "verdict": "PASS"
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984119890497500,
+          "monotonic_ns": 424236984788000,
+          "part_id": 162,
+          "batch_id": 832203165,
+          "waiting": 1
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984119918246100,
+          "monotonic_ns": 424237012536300,
+          "batch_id": 832203165,
+          "part_id": 161,
+          "job_id": 184,
+          "verdict": "PASS"
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984120015352400,
+          "monotonic_ns": 424237109642000,
+          "batch_id": 832203165,
+          "part_id": 162,
+          "job_id": 185,
+          "verdict": "FAIL"
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984120070520500,
+          "monotonic_ns": 424237164809300,
+          "part_id": 163,
+          "batch_id": 832203165,
+          "waiting": 1
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984120250496000,
+          "monotonic_ns": 424237344783300,
+          "part_id": 164,
+          "batch_id": 832203165,
+          "waiting": 1
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984120430475500,
+          "monotonic_ns": 424237524761100,
+          "part_id": 165,
+          "batch_id": 832203165,
+          "waiting": 2
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984120610498100,
+          "monotonic_ns": 424237704782000,
+          "part_id": 166,
+          "batch_id": 832203165,
+          "waiting": 3
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984120790603300,
+          "monotonic_ns": 424237884885600,
+          "part_id": 167,
+          "batch_id": 832203165,
+          "waiting": 4
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984120970474300,
+          "monotonic_ns": 424238064755000,
+          "part_id": 168,
+          "batch_id": 832203165,
+          "waiting": 5
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984122495534700,
+          "monotonic_ns": 424239589801400,
+          "batch_id": 832203165,
+          "part_id": 163,
+          "job_id": 186,
+          "verdict": "PASS"
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984122585925300,
+          "monotonic_ns": 424239680191300,
+          "batch_id": 832203165,
+          "part_id": 164,
+          "job_id": 187,
+          "verdict": "PASS"
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984122673942500,
+          "monotonic_ns": 424239768207700,
+          "batch_id": 832203165,
+          "part_id": 165,
+          "job_id": 188,
+          "verdict": "PASS"
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984122773278900,
+          "monotonic_ns": 424239867543200,
+          "batch_id": 832203165,
+          "part_id": 166,
+          "job_id": 189,
+          "verdict": "FAIL"
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984122866079600,
+          "monotonic_ns": 424239960343100,
+          "batch_id": 832203165,
+          "part_id": 167,
+          "job_id": 190,
+          "verdict": "PASS"
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984122963529300,
+          "monotonic_ns": 424240057791800,
+          "batch_id": 832203165,
+          "part_id": 168,
+          "job_id": 191,
+          "verdict": "PASS"
+        },
+        {
+          "event": "batch_completed",
+          "time_ns": 1794984122963546900,
+          "monotonic_ns": 424240057809400,
+          "batch_id": 832203165,
+          "target": 12,
+          "accepted": 9,
+          "rejected": 3
+        },
+        {
+          "event": "fault",
+          "time_ns": 1794984375356980800,
+          "monotonic_ns": 424492448947000,
+          "reason": "Inspector status is stale",
+          "batch_id": 832203165
+        },
+        {
+          "event": "connected",
+          "time_ns": 1794984474885997200,
+          "monotonic_ns": 424591977057200,
+          "serial_port": "COM7",
+          "host": "192.168.100.39",
+          "port": 9000
+        },
+        {
+          "event": "connected",
+          "time_ns": 1794984512740269500,
+          "monotonic_ns": 424629830985300,
+          "serial_port": "COM7",
+          "host": "192.168.100.39",
+          "port": 9000
+        },
+        {
+          "event": "command_delivery",
+          "time_ns": 1794984512967341700,
+          "monotonic_ns": 424630058055400,
+          "cmd_id": 194,
+          "action": "configure"
+        },
+        {
+          "event": "command_acceptance",
+          "time_ns": 1794984512967387300,
+          "monotonic_ns": 424630058100900,
+          "cmd_id": 194,
+          "action": "configure"
+        },
+        {
+          "event": "command_completion",
+          "time_ns": 1794984513153085200,
+          "monotonic_ns": 424630243797500,
+          "cmd_id": 194,
+          "action": "configure",
+          "phase": "completion",
+          "state": "Idle"
+        },
+        {
+          "event": "command_delivery",
+          "time_ns": 1794984513299085200,
+          "monotonic_ns": 424630389796000,
+          "cmd_id": 195,
+          "action": "start"
+        },
+        {
+          "event": "command_acceptance",
+          "time_ns": 1794984513299132200,
+          "monotonic_ns": 424630389842800,
+          "cmd_id": 195,
+          "action": "start"
+        },
+        {
+          "event": "command_completion",
+          "time_ns": 1794984513319202000,
+          "monotonic_ns": 424630409912700,
+          "cmd_id": 195,
+          "action": "start",
+          "phase": "completion",
+          "state": "Running"
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984514123521600,
+          "monotonic_ns": 424631214224500,
+          "part_id": 169,
+          "batch_id": 943025621,
+          "waiting": 1
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984514489944600,
+          "monotonic_ns": 424631580644200,
+          "batch_id": 943025621,
+          "part_id": 169,
+          "job_id": 196,
+          "verdict": "FAIL"
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984514923526100,
+          "monotonic_ns": 424632014221800,
+          "part_id": 170,
+          "batch_id": 943025621,
+          "waiting": 1
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984515246574600,
+          "monotonic_ns": 424632337267300,
+          "batch_id": 943025621,
+          "part_id": 170,
+          "job_id": 197,
+          "verdict": "PASS"
+        },
+        {
+          "event": "part_queued",
+          "time_ns": 1794984515723571700,
+          "monotonic_ns": 424632814260100,
+          "part_id": 171,
+          "batch_id": 943025621,
+          "waiting": 1
+        },
+        {
+          "event": "inspection_completed",
+          "time_ns": 1794984516305568300,
+          "monotonic_ns": 424633396251400,
+          "batch_id": 943025621,
+          "part_id": 171,
+          "job_id": 198,
+          "verdict": "FAIL"
+        },
+        {
+          "event": "batch_completed",
+          "time_ns": 1794984516305646800,
+          "monotonic_ns": 424633396330000,
+          "batch_id": 943025621,
+          "target": 3,
+          "accepted": 1,
+          "rejected": 2
+        },
+        {
+          "event": "connected",
+          "time_ns": 1794984534766921700,
+          "monotonic_ns": 424651857437500,
+          "serial_port": "COM7",
+          "host": "192.168.100.39",
+          "port": 9000
+        }
+      ],
+      "parts": [
+        {
+          "batch_id": 943025621,
+          "producer_boot": 2633902619,
+          "part_id": 169,
+          "produced_count": 1,
+          "job_id": 196,
+          "status": "Completed",
+          "verdict": "FAIL",
+          "received_ns": 424631214221600,
+          "completed_ns": 424631580640400
+        },
+        {
+          "batch_id": 943025621,
+          "producer_boot": 2633902619,
+          "part_id": 170,
+          "produced_count": 2,
+          "job_id": 197,
+          "status": "Completed",
+          "verdict": "PASS",
+          "received_ns": 424632014218400,
+          "completed_ns": 424632337263000
+        },
+        {
+          "batch_id": 943025621,
+          "producer_boot": 2633902619,
+          "part_id": 171,
+          "produced_count": 3,
+          "job_id": 198,
+          "status": "Completed",
+          "verdict": "FAIL",
+          "received_ns": 424632814255800,
+          "completed_ns": 424633396247100
+        }
+      ]
+    }
+  },
+  {
+    "monotonic_ns": 424651885868800,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 200,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424651973529700,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 200,
+      "action": "configure",
+      "values": {
+        "target": 12,
+        "cycle_ms": 200,
+        "inspection_ms": 50,
+        "n": 5,
+        "k": 0,
+        "capacity": 8
+      }
+    },
+    "response": {
+      "cmd_id": 200,
+      "action": "configure",
+      "phase": "completion",
+      "state": "Idle"
+    }
+  },
+  {
+    "monotonic_ns": 424651994832700,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 201,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424652010410500,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 201,
+      "action": "start",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 201,
+      "action": "start",
+      "phase": "completion",
+      "state": "Running"
+    }
+  },
+  {
+    "monotonic_ns": 424654795024800,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 214,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424654849179000,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 214,
+      "action": "configure",
+      "values": {
+        "target": 12,
+        "cycle_ms": 80,
+        "inspection_ms": 180,
+        "n": 3,
+        "k": 1,
+        "capacity": 16
+      }
+    },
+    "response": {
+      "cmd_id": 214,
+      "action": "configure",
+      "phase": "completion",
+      "state": "Idle"
+    }
+  },
+  {
+    "monotonic_ns": 424654850934300,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 215,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424654890272900,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 215,
+      "action": "start",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 215,
+      "action": "start",
+      "phase": "completion",
+      "state": "Running"
+    }
+  },
+  {
+    "monotonic_ns": 424657517392800,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 228,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424657621207000,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 228,
+      "action": "configure",
+      "values": {
+        "target": 20,
+        "cycle_ms": 120,
+        "inspection_ms": 150,
+        "n": 7,
+        "k": 3,
+        "capacity": 20
+      }
+    },
+    "response": {
+      "cmd_id": 228,
+      "action": "configure",
+      "phase": "completion",
+      "state": "Idle"
+    }
+  },
+  {
+    "monotonic_ns": 424657643052300,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 229,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424657680191100,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 229,
+      "action": "start",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 229,
+      "action": "start",
+      "phase": "completion",
+      "state": "Running"
+    }
+  },
+  {
+    "monotonic_ns": 424658078731500,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 232,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424658100017700,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 232,
+      "action": "pause",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 232,
+      "action": "pause",
+      "phase": "completion",
+      "state": "Paused"
+    }
+  },
+  {
+    "monotonic_ns": 424658732923100,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 233,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424658749786300,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 233,
+      "action": "resume",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 233,
+      "action": "resume",
+      "phase": "completion",
+      "state": "Running"
+    }
+  },
+  {
+    "monotonic_ns": 424665961241500,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 252,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424666052277100,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 252,
+      "action": "configure",
+      "values": {
+        "target": 100,
+        "cycle_ms": 100,
+        "inspection_ms": 150,
+        "n": 5,
+        "k": 1,
+        "capacity": 20
+      }
+    },
+    "response": {
+      "cmd_id": 252,
+      "action": "configure",
+      "phase": "completion",
+      "state": "Idle"
+    }
+  },
+  {
+    "monotonic_ns": 424666069866400,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 253,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424666099664500,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 253,
+      "action": "start",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 253,
+      "action": "start",
+      "phase": "completion",
+      "state": "Running"
+    }
+  },
+  {
+    "monotonic_ns": 424666444276400,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 256,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424666567235800,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 256,
+      "action": "stop",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 256,
+      "action": "stop",
+      "phase": "completion",
+      "state": "Idle"
+    }
+  },
+  {
+    "monotonic_ns": 424666974326800,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 257,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424667044289900,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 257,
+      "action": "configure",
+      "values": {
+        "target": 100,
+        "cycle_ms": 50,
+        "inspection_ms": 400,
+        "n": 4,
+        "k": 2,
+        "capacity": 2
+      }
+    },
+    "response": {
+      "cmd_id": 257,
+      "action": "configure",
+      "phase": "completion",
+      "state": "Idle"
+    }
+  },
+  {
+    "monotonic_ns": 424667066044100,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 258,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424667089590000,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 258,
+      "action": "start",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 258,
+      "action": "start",
+      "phase": "completion",
+      "state": "Running"
+    }
+  },
+  {
+    "monotonic_ns": 424670875829100,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 260,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424672251067600,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 260,
+      "action": "stop",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 260,
+      "action": "stop",
+      "phase": "completion",
+      "state": "Idle"
+    }
+  },
+  {
+    "monotonic_ns": 424672254371300,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 261,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424672486303700,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 261,
+      "action": "configure",
+      "values": {
+        "target": 12,
+        "cycle_ms": 180,
+        "inspection_ms": 70,
+        "n": 4,
+        "k": 2,
+        "capacity": 16
+      }
+    },
+    "response": {
+      "cmd_id": 261,
+      "action": "configure",
+      "phase": "completion",
+      "state": "Idle"
+    }
+  },
+  {
+    "monotonic_ns": 424672504688200,
+    "path": "/api/command-id",
+    "request": {},
+    "response": {
+      "cmd_id": 262,
+      "expires_in_seconds": 5
+    }
+  },
+  {
+    "monotonic_ns": 424672539710300,
+    "path": "/api/command",
+    "request": {
+      "cmd_id": 262,
+      "action": "start",
+      "values": {}
+    },
+    "response": {
+      "cmd_id": 262,
+      "action": "start",
+      "phase": "completion",
+      "state": "Running"
+    }
+  }
+]
